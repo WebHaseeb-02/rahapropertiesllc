@@ -1,0 +1,7 @@
+0000.000 (0) Opened log file at time: Sat, 29 Jul 2023 03:23:19 +0000 on https://rahapropertiesllc.com
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.0.28 (litespeed, Linux ls1.spacewelt.com 4.18.0-425.13.1.lve.el8.x86_64 #1 SMP Mon Feb 27 15:23:24 EST 2023 x86_64) MySQL: 8.0.33 (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 128.7M | 132M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.043 (0) Free space on disk containing Updraft's temporary directory: 324189.6 MB
+0000.047 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.059 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.088 (0) Semaphore lock (fd, ncUam8N_options) failed (line 43)
+0000.090 (0) Failed to gain semaphore lock (fd) - another backup of this type is apparently already active - aborting (if this is wrong - i.e. if the other backup crashed without removing the lock, then another can be started after 3 minutes)

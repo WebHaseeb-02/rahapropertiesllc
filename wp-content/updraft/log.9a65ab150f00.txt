@@ -1,0 +1,780 @@
+0000.000 (0) Opened log file at time: Sat, 29 Jul 2023 03:37:53 +0000 on https://rahapropertiesllc.com
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.0.28 (litespeed, Linux ls1.spacewelt.com 4.18.0-425.13.1.lve.el8.x86_64 #1 SMP Mon Feb 27 15:23:24 EST 2023 x86_64) MySQL: 8.0.33 (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 111.7M | 113M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.032 (0) Free space on disk containing Updraft's temporary directory: 324163.9 MB
+0000.036 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.038 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.046 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1690600999, seconds_ago=874)
+0000.051 (0) Set semaphore last lock (fd) time to 2023-07-29 03:37:53
+0000.053 (0) Semaphore lock (fd) complete
+0000.064 (0) Backup run: resumption=0, nonce=9a65ab150f00, file_nonce=9a65ab150f00 begun at=1690601873 (0s ago), job type=backup
+0000.067 (0) Scheduling a resumption (1) after 490 seconds (1690602363) in case this run gets aborted
+0000.079 (0) Checking if we have a zip executable available
+0000.081 (0) Testing: /usr/bin/zip
+0000.087 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.089 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.091 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.093 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.095 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.108 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.111 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.118 (0) Working binary zip found: /usr/bin/zip
+0000.122 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.124 (0) Creation of backups of directories: beginning
+0000.133 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.628 (0) Total entities for the zip file: 3405 directories, 17425 files (0 skipped as non-modified), 254.9 MB
+0000.635 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.639 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.643 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.647 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.651 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.656 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.660 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.665 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.669 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.673 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.675 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.1 MB, 17425 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0005.331 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: size is now: 5.50 MB
+0005.338 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 1100 files added (on-disk size: 5599 KB)
+0005.342 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 1200 files added (on-disk size: 5599 KB)
+0005.346 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 1300 files added (on-disk size: 5599 KB)
+0005.350 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 1400 files added (on-disk size: 5599 KB)
+0005.354 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 1500 files added (on-disk size: 5599 KB)
+0005.358 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 1600 files added (on-disk size: 5599 KB)
+0005.362 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 1700 files added (on-disk size: 5599 KB)
+0005.366 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 1800 files added (on-disk size: 5599 KB)
+0005.370 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 1900 files added (on-disk size: 5599 KB)
+0005.374 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 2000 files added (on-disk size: 5599 KB)
+0005.376 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.6 MB, 17425 files batched, 1001 (2002) added so far); re-opening (prior size: 5599 KB)
+0013.470 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: size is now: 8.10 MB
+0013.479 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 2100 files added (on-disk size: 8327.1 KB)
+0013.484 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 2200 files added (on-disk size: 8327.1 KB)
+0013.488 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 2300 files added (on-disk size: 8327.1 KB)
+0013.492 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 2400 files added (on-disk size: 8327.1 KB)
+0013.496 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 2500 files added (on-disk size: 8327.1 KB)
+0013.501 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 2600 files added (on-disk size: 8327.1 KB)
+0013.506 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 2700 files added (on-disk size: 8327.1 KB)
+0013.510 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 2800 files added (on-disk size: 8327.1 KB)
+0013.514 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 2900 files added (on-disk size: 8327.1 KB)
+0013.519 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 3000 files added (on-disk size: 8327.1 KB)
+0013.521 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.4 MB, 17425 files batched, 1001 (3003) added so far); re-opening (prior size: 8327.1 KB)
+0025.602 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: size is now: 12.10 MB
+0025.611 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 3100 files added (on-disk size: 12418 KB)
+0025.616 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 3200 files added (on-disk size: 12418 KB)
+0025.620 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 3300 files added (on-disk size: 12418 KB)
+0025.625 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 3400 files added (on-disk size: 12418 KB)
+0025.629 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 3500 files added (on-disk size: 12418 KB)
+0025.634 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 3600 files added (on-disk size: 12418 KB)
+0025.638 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 3700 files added (on-disk size: 12418 KB)
+0025.643 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 3800 files added (on-disk size: 12418 KB)
+0025.647 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 3900 files added (on-disk size: 12418 KB)
+0025.652 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 4000 files added (on-disk size: 12418 KB)
+0025.654 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.2 MB, 17425 files batched, 1001 (4004) added so far); re-opening (prior size: 12418 KB)
+0039.215 (0) PHP event: code E_WARNING: filesize(): stat failed for /home/affordab/public_html/rahapropertiesllc.com/wp-content/updraft/backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0039.229 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 4100 files added (on-disk size: 13939.1 KB)
+0039.233 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 4200 files added (on-disk size: 13939.1 KB)
+0039.238 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 4300 files added (on-disk size: 13939.1 KB)
+0039.243 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 4400 files added (on-disk size: 13939.1 KB)
+0039.247 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 4500 files added (on-disk size: 13939.1 KB)
+0039.252 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 4600 files added (on-disk size: 13939.1 KB)
+0039.256 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 4700 files added (on-disk size: 13939.1 KB)
+0039.262 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 4800 files added (on-disk size: 13939.1 KB)
+0039.267 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 4900 files added (on-disk size: 13939.1 KB)
+0039.271 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 5000 files added (on-disk size: 13939.1 KB)
+0039.274 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.6 MB, 17425 files batched, 1001 (5005) added so far); re-opening (prior size: 13939.1 KB)
+0054.385 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 5100 files added (on-disk size: 15517.1 KB)
+0054.390 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 5200 files added (on-disk size: 15517.1 KB)
+0054.394 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 5300 files added (on-disk size: 15517.1 KB)
+0054.399 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 5400 files added (on-disk size: 15517.1 KB)
+0054.403 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 5500 files added (on-disk size: 15517.1 KB)
+0054.407 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 5600 files added (on-disk size: 15517.1 KB)
+0054.423 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 5700 files added (on-disk size: 15517.1 KB)
+0054.427 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 5800 files added (on-disk size: 15517.1 KB)
+0054.431 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 5900 files added (on-disk size: 15517.1 KB)
+0054.436 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 6000 files added (on-disk size: 15517.1 KB)
+0054.438 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.1 MB, 17425 files batched, 1001 (6006) added so far); re-opening (prior size: 15517.1 KB)
+0076.848 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: size is now: 22.50 MB
+0076.858 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 6100 files added (on-disk size: 22998.2 KB)
+0076.863 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 6200 files added (on-disk size: 22998.2 KB)
+0076.868 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 6300 files added (on-disk size: 22998.2 KB)
+0076.872 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 6400 files added (on-disk size: 22998.2 KB)
+0076.877 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 6500 files added (on-disk size: 22998.2 KB)
+0076.882 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 6600 files added (on-disk size: 22998.2 KB)
+0076.887 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 6700 files added (on-disk size: 22998.2 KB)
+0076.894 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 6800 files added (on-disk size: 22998.2 KB)
+0076.899 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 6900 files added (on-disk size: 22998.2 KB)
+0076.903 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 7000 files added (on-disk size: 22998.2 KB)
+0076.905 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13 MB, 17425 files batched, 1001 (7007) added so far); re-opening (prior size: 22998.2 KB)
+0103.079 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 7100 files added (on-disk size: 26846 KB)
+0103.084 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 7200 files added (on-disk size: 26846 KB)
+0103.089 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 7300 files added (on-disk size: 26846 KB)
+0103.094 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 7400 files added (on-disk size: 26846 KB)
+0103.099 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 7500 files added (on-disk size: 26846 KB)
+0103.103 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 7600 files added (on-disk size: 26846 KB)
+0103.108 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 7700 files added (on-disk size: 26846 KB)
+0103.113 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 7800 files added (on-disk size: 26846 KB)
+0103.116 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 17425 files batched, 834 (7841) added so far); re-opening (prior size: 26846 KB)
+0136.122 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: size is now: 33.00 MB
+0136.131 (0) A useful amount of data was added after this amount of zip processing: 33.3 s (normalised: 33 s, rate: 775.8 KB/s)
+0136.139 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 7900 files added (on-disk size: 33832.6 KB)
+0136.145 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 8000 files added (on-disk size: 33832.6 KB)
+0136.150 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 8100 files added (on-disk size: 33832.6 KB)
+0136.156 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 8200 files added (on-disk size: 33832.6 KB)
+0136.160 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 8300 files added (on-disk size: 33832.6 KB)
+0136.165 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 8400 files added (on-disk size: 33832.6 KB)
+0136.170 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 8500 files added (on-disk size: 33832.6 KB)
+0136.177 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 8600 files added (on-disk size: 33832.6 KB)
+0136.183 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 8700 files added (on-disk size: 33832.6 KB)
+0136.187 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 8800 files added (on-disk size: 33832.6 KB)
+0136.190 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.2 MB, 17425 files batched, 1001 (8842) added so far); re-opening (prior size: 33832.6 KB)
+0173.743 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 8900 files added (on-disk size: 38499.8 KB)
+0173.749 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 9000 files added (on-disk size: 38499.8 KB)
+0173.754 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 9100 files added (on-disk size: 38499.8 KB)
+0173.760 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 9200 files added (on-disk size: 38499.8 KB)
+0173.767 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 9300 files added (on-disk size: 38499.8 KB)
+0173.773 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 9400 files added (on-disk size: 38499.8 KB)
+0173.778 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 9500 files added (on-disk size: 38499.8 KB)
+0173.782 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 17425 files batched, 723 (9565) added so far); re-opening (prior size: 38499.8 KB)
+0227.793 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: size is now: 54.00 MB
+0227.799 (0) A useful amount of data was added after this amount of zip processing: 55 s (normalised: 54.9 s, rate: 466.5 KB/s)
+0227.804 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 9600 files added (on-disk size: 55345.2 KB)
+0227.808 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 9700 files added (on-disk size: 55345.2 KB)
+0227.813 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 9800 files added (on-disk size: 55345.2 KB)
+0227.819 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 9900 files added (on-disk size: 55345.2 KB)
+0227.824 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 10000 files added (on-disk size: 55345.2 KB)
+0227.829 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 10100 files added (on-disk size: 55345.2 KB)
+0227.833 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 10200 files added (on-disk size: 55345.2 KB)
+0227.838 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 10300 files added (on-disk size: 55345.2 KB)
+0227.842 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 10400 files added (on-disk size: 55345.2 KB)
+0227.847 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 10500 files added (on-disk size: 55345.2 KB)
+0227.854 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.2 MB, 17425 files batched, 1001 (10566) added so far); re-opening (prior size: 55345.2 KB)
+0287.429 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 10600 files added (on-disk size: 61041.8 KB)
+0287.434 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 10700 files added (on-disk size: 61041.8 KB)
+0287.438 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 10800 files added (on-disk size: 61041.8 KB)
+0287.442 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 10900 files added (on-disk size: 61041.8 KB)
+0287.447 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 11000 files added (on-disk size: 61041.8 KB)
+0287.451 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 11100 files added (on-disk size: 61041.8 KB)
+0287.455 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 11200 files added (on-disk size: 61041.8 KB)
+0287.459 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 11300 files added (on-disk size: 61041.8 KB)
+0287.463 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 11400 files added (on-disk size: 61041.8 KB)
+0287.467 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 11500 files added (on-disk size: 61041.8 KB)
+0287.471 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.5 MB, 17425 files batched, 1001 (11567) added so far); re-opening (prior size: 61041.8 KB)
+0350.220 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 11600 files added (on-disk size: 63835.1 KB)
+0350.225 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 11700 files added (on-disk size: 63835.1 KB)
+0350.230 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 11800 files added (on-disk size: 63835.1 KB)
+0350.234 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 11900 files added (on-disk size: 63835.1 KB)
+0350.238 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 12000 files added (on-disk size: 63835.1 KB)
+0350.242 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 12100 files added (on-disk size: 63835.1 KB)
+0350.247 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 12200 files added (on-disk size: 63835.1 KB)
+0350.251 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 12300 files added (on-disk size: 63835.1 KB)
+0350.255 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 12400 files added (on-disk size: 63835.1 KB)
+0350.259 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 12500 files added (on-disk size: 63835.1 KB)
+0350.263 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.7 MB, 17425 files batched, 1001 (12568) added so far); re-opening (prior size: 63835.1 KB)
+0417.322 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 12600 files added (on-disk size: 68666.6 KB)
+0417.328 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 12700 files added (on-disk size: 68666.6 KB)
+0417.332 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 12800 files added (on-disk size: 68666.6 KB)
+0417.336 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 12900 files added (on-disk size: 68666.6 KB)
+0417.340 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 13000 files added (on-disk size: 68666.6 KB)
+0417.345 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 13100 files added (on-disk size: 68666.6 KB)
+0417.349 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.7 MB, 17425 files batched, 632 (13200) added so far); re-opening (prior size: 68666.6 KB)
+0482.526 (0) The time we have been running (482.5) is approaching the resumption interval (490) - increasing resumption interval to 513
+0487.842 (0) The time we have been running (487.8) is approaching the resumption interval (513) - increasing resumption interval to 518
+0490.218 (0) The time we have been running (490.2) is approaching the resumption interval (518) - increasing resumption interval to 521
+0490.225 (0) A useful amount of data was added after this amount of zip processing: 73.4 s (normalised: 68.6 s, rate: 373.1 KB/s)
+0490.241 (0) Performance is good - will increase the amount of data we attempt to batch (time=73.396558046341, normalised_time=68.607498483736, max_time=490.22707986832, data points known=1, old_max_bytes=26214400, new_max_bytes=112387208)
+0490.246 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 13200 files added (on-disk size: 74674.7 KB)
+0490.252 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 13300 files added (on-disk size: 74674.7 KB)
+0490.257 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 13400 files added (on-disk size: 74674.7 KB)
+0490.262 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 13500 files added (on-disk size: 74674.7 KB)
+0490.267 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 13600 files added (on-disk size: 74674.7 KB)
+0490.273 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 13700 files added (on-disk size: 74674.7 KB)
+0490.279 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 13800 files added (on-disk size: 74674.7 KB)
+0490.283 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 13900 files added (on-disk size: 74674.7 KB)
+0490.289 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 14000 files added (on-disk size: 74674.7 KB)
+0490.295 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 14100 files added (on-disk size: 74674.7 KB)
+0490.305 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 14200 files added (on-disk size: 74674.7 KB)
+0490.308 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (26.1 MB, 17425 files batched, 1001 (14201) added so far); re-opening (prior size: 74674.7 KB)
+0494.515 (1) Opened log file at time: Sat, 29 Jul 2023 03:46:07 +0000 on https://rahapropertiesllc.com
+0494.517 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.0.28 (litespeed, Linux ls1.spacewelt.com 4.18.0-425.13.1.lve.el8.x86_64 #1 SMP Mon Feb 27 15:23:24 EST 2023 x86_64) MySQL: 8.0.33 (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 111.7M | 113M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+0494.554 (1) Free space on disk containing Updraft's temporary directory: 324073.4 MB
+0494.557 (1) Requesting backup semaphore lock (9a65ab150f00)
+0494.561 (1) [Debug] Lock option (updraft_lock_9a65ab150f00, ncUam8N_options) was created in the database
+0494.562 (1) [Info] Lock (updraft_lock_9a65ab150f00, ncUam8N_options) acquired after initialising the database
+0494.566 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1690602363.5, time_now=1690602367.7, diff=4, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0494.568 (1) A new resumption will be scheduled to prevent the job ending
+0494.570 (1) Rescheduling resumption 2: moving to 641 seconds from now (1690603008)
+0494.577 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 521 + 120 = 641
+0560.879 (0) The time we have been running (560.9) is approaching the resumption interval (521) - increasing resumption interval to 591
+0566.950 (0) The time we have been running (566.9) is approaching the resumption interval (591) - increasing resumption interval to 597
+0572.765 (0) The time we have been running (572.8) is approaching the resumption interval (597) - increasing resumption interval to 603
+0572.772 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 14300 files added (on-disk size: 84521.1 KB)
+0572.777 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 14400 files added (on-disk size: 84521.1 KB)
+0572.781 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 14500 files added (on-disk size: 84521.1 KB)
+0572.786 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 14600 files added (on-disk size: 84521.1 KB)
+0572.791 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 14700 files added (on-disk size: 84521.1 KB)
+0572.795 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 14800 files added (on-disk size: 84521.1 KB)
+0572.799 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 14900 files added (on-disk size: 84521.1 KB)
+0572.803 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 15000 files added (on-disk size: 84521.1 KB)
+0572.807 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 15100 files added (on-disk size: 84521.1 KB)
+0572.812 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 15200 files added (on-disk size: 84521.1 KB)
+0572.814 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.9 MB, 17425 files batched, 1001 (15202) added so far); re-opening (prior size: 84521.1 KB)
+0652.934 (0) The time we have been running (652.9) is approaching the resumption interval (603) - increasing resumption interval to 683
+0658.742 (0) The time we have been running (658.7) is approaching the resumption interval (683) - increasing resumption interval to 689
+0658.748 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 15300 files added (on-disk size: 88034.1 KB)
+0658.752 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 15400 files added (on-disk size: 88034.1 KB)
+0658.756 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 15500 files added (on-disk size: 88034.1 KB)
+0658.760 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 15600 files added (on-disk size: 88034.1 KB)
+0658.765 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 15700 files added (on-disk size: 88034.1 KB)
+0658.769 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 15800 files added (on-disk size: 88034.1 KB)
+0658.774 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 15900 files added (on-disk size: 88034.1 KB)
+0658.778 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 16000 files added (on-disk size: 88034.1 KB)
+0658.782 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 16100 files added (on-disk size: 88034.1 KB)
+0658.787 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 16200 files added (on-disk size: 88034.1 KB)
+0658.789 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.8 MB, 17425 files batched, 1001 (16203) added so far); re-opening (prior size: 88034.1 KB)
+0742.726 (0) The time we have been running (742.7) is approaching the resumption interval (689) - increasing resumption interval to 773
+0747.833 (0) The time we have been running (747.8) is approaching the resumption interval (773) - increasing resumption interval to 778
+0747.839 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 16300 files added (on-disk size: 90723.8 KB)
+0747.844 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 16400 files added (on-disk size: 90723.8 KB)
+0747.848 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 16500 files added (on-disk size: 90723.8 KB)
+0747.853 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 16600 files added (on-disk size: 90723.8 KB)
+0747.858 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 16700 files added (on-disk size: 90723.8 KB)
+0747.862 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 16800 files added (on-disk size: 90723.8 KB)
+0747.866 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 16900 files added (on-disk size: 90723.8 KB)
+0747.871 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 17000 files added (on-disk size: 90723.8 KB)
+0747.875 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 17100 files added (on-disk size: 90723.8 KB)
+0747.880 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 17200 files added (on-disk size: 90723.8 KB)
+0747.882 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.6 MB, 17425 files batched, 1001 (17204) added so far); re-opening (prior size: 90723.8 KB)
+0833.753 (0) The time we have been running (833.7) is approaching the resumption interval (778) - increasing resumption interval to 864
+0838.839 (0) The time we have been running (838.8) is approaching the resumption interval (864) - increasing resumption interval to 869
+0843.634 (0) The time we have been running (843.6) is approaching the resumption interval (869) - increasing resumption interval to 874
+0843.641 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 17300 files added (on-disk size: 97045.9 KB)
+0843.647 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.tmp: 17400 files added (on-disk size: 97045.9 KB)
+0935.612 (0) The time we have been running (935.6) is approaching the resumption interval (874) - increasing resumption interval to 966
+0939.335 (0) The time we have been running (939.3) is approaching the resumption interval (966) - increasing resumption interval to 970
+0939.770 (0) Creating zip file manifest (backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.list-temp.tmp)
+0940.801 (0) Successfully created zip file manifest (size: 1569406)
+0941.925 (0) Created plugins zip (0) - 97842.7 KB in 941.8 s (103.9 KB/s) (sha1: 0c031a72982d41378f6d2b32b5b5d3f89062c4b5, sha256: aefeb72a2f3486bede1dff9f0ff09b376252531d205f5fb16b41354276c78c06)
+0941.948 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0941.952 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5f257ab9ad823b0676e733645333dada)
+0943.592 (0) Google Drive: quota usage: used=1051.5 MB, total=15360 MB, available=14308.5 MB
+0943.596 (0) Google Drive: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip: Attempting to upload to Google Drive (into folder id: 1XYd43tmLYhjxjos0mHDvqVmOgk9f7BaI)
+0944.963 (0) The time we have been running (945) is approaching the resumption interval (970) - increasing resumption interval to 975
+0944.967 (0) Googledrive chunked upload: 1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 117.8 / 139)
+0945.885 (0) The time we have been running (945.9) is approaching the resumption interval (975) - increasing resumption interval to 976
+0945.890 (0) Googledrive chunked upload: 3.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 117.8 / 139)
+0946.912 (0) The time we have been running (946.9) is approaching the resumption interval (976) - increasing resumption interval to 977
+0946.917 (0) Googledrive chunked upload: 7.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 117.8 / 139)
+0948.138 (0) The time we have been running (948.1) is approaching the resumption interval (977) - increasing resumption interval to 979
+0948.143 (0) Googledrive chunked upload: 15.7 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 117.8 / 139)
+0949.622 (0) The time we have been running (949.6) is approaching the resumption interval (979) - increasing resumption interval to 980
+0949.626 (0) Googledrive chunked upload: 32.4 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 117.8 / 139)
+0951.896 (0) The time we have been running (951.9) is approaching the resumption interval (980) - increasing resumption interval to 982
+0951.901 (0) Googledrive chunked upload: 65.9 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 117.8 / 139)
+0955.976 (0) The time we have been running (956) is approaching the resumption interval (982) - increasing resumption interval to 986
+0955.981 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0955.987 (0) Google Drive: OK: Archive backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip uploaded in 12.39 seconds
+0955.990 (0) Recording as successfully uploaded: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip
+0956.005 (0) Deleting local file: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip: OK
+0956.017 (0) Beginning creation of dump of themes (split every: 400 MB)
+0956.140 (0) Total entities for the zip file: 381 directories, 1051 files (0 skipped as non-modified), 29.6 MB
+0956.146 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0956.151 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0956.157 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0956.162 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0956.167 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0956.172 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0956.220 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0956.226 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0956.231 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0956.236 (0) Zip: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0956.238 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (29.1 MB, 1051 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0961.929 (0) The time we have been running (961.9) is approaching the resumption interval (986) - increasing resumption interval to 992
+0967.950 (0) The time we have been running (967.9) is approaching the resumption interval (992) - increasing resumption interval to 998
+0970.676 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip.tmp: size is now: 15.30 MB
+0970.687 (0) The time we have been running (970.7) is approaching the resumption interval (998) - increasing resumption interval to 1001
+0985.786 (0) The time we have been running (985.8) is approaching the resumption interval (1001) - increasing resumption interval to 1016
+0986.388 (0) The time we have been running (986.4) is approaching the resumption interval (1016) - increasing resumption interval to 1017
+0986.439 (0) Creating zip file manifest (backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip.list-temp.tmp)
+0986.523 (0) Successfully created zip file manifest (size: 86194)
+0986.858 (0) Created themes zip (0) - 16068.6 KB in 30.8 s (521.6 KB/s) (sha1: 3daf153adb8dd74b6215c4c939de538ac84f9c88, sha256: 4269faf5f28cf51f0b051bb6d16bd2d52b98787014b11bd016cd0112cbfa4762)
+0986.865 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0986.867 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5f257ab9ad823b0676e733645333dada)
+0987.445 (0) Google Drive: quota usage: used=1147.1 MB, total=15360 MB, available=14212.9 MB
+0987.448 (0) Google Drive: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip: Attempting to upload to Google Drive (into folder id: 1XYd43tmLYhjxjos0mHDvqVmOgk9f7BaI)
+0988.923 (0) The time we have been running (988.9) is approaching the resumption interval (1017) - increasing resumption interval to 1019
+0988.928 (0) Googledrive chunked upload: 6.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 114.8 / 137)
+0989.862 (0) The time we have been running (989.9) is approaching the resumption interval (1019) - increasing resumption interval to 1020
+0989.866 (0) Googledrive chunked upload: 19.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 114.9 / 137)
+0990.937 (0) The time we have been running (990.9) is approaching the resumption interval (1020) - increasing resumption interval to 1021
+0990.941 (0) Googledrive chunked upload: 44.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 114.9 / 137)
+0992.157 (0) The time we have been running (992.2) is approaching the resumption interval (1021) - increasing resumption interval to 1023
+0992.161 (0) Googledrive chunked upload: 95.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 114.9 / 137)
+0993.720 (0) The time we have been running (993.7) is approaching the resumption interval (1023) - increasing resumption interval to 1024
+0993.725 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0993.730 (0) Google Drive: OK: Archive backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip uploaded in 6.28 seconds
+0993.732 (0) Recording as successfully uploaded: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip
+0993.739 (0) Deleting local file: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip: OK
+0993.746 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0993.748 (0) Looking for candidates to backup in: /home/affordab/public_html/rahapropertiesllc.com/wp-content/uploads
+0993.750 (0) finding files: 2023: adding to list (1)
+0993.751 (0) finding files: wpcf7_uploads: adding to list (2)
+0993.753 (0) finding files: woocommerce_uploads: adding to list (3)
+0993.755 (0) finding files: wc-logs: adding to list (4)
+0993.757 (0) finding files: woocommerce-placeholder.png: adding to list (5)
+0993.758 (0) finding files: astra-sites: adding to list (6)
+0993.760 (0) finding files: 2019: adding to list (7)
+0993.762 (0) finding files: 2020: adding to list (8)
+0993.764 (0) finding files: 2021: adding to list (9)
+0993.765 (0) finding files: elementor: adding to list (10)
+0993.767 (0) finding files: wpforms: adding to list (11)
+0993.769 (0) finding files: wp-file-manager-pro: adding to list (12)
+0993.771 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0993.838 (0) Total entities for the zip file: 20 directories, 95 files (0 skipped as non-modified), 41.4 MB
+1000.096 (0) The time we have been running (1000.1) is approaching the resumption interval (1024) - increasing resumption interval to 1031
+1006.454 (0) The time we have been running (1006.4) is approaching the resumption interval (1031) - increasing resumption interval to 1037
+1011.893 (0) The time we have been running (1011.9) is approaching the resumption interval (1037) - increasing resumption interval to 1042
+1018.001 (0) The time we have been running (1018) is approaching the resumption interval (1042) - increasing resumption interval to 1048
+1024.055 (0) The time we have been running (1024) is approaching the resumption interval (1048) - increasing resumption interval to 1055
+1030.629 (0) The time we have been running (1030.6) is approaching the resumption interval (1055) - increasing resumption interval to 1061
+1031.841 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-uploads.zip.tmp: size is now: 38.90 MB
+1031.850 (0) The time we have been running (1031.8) is approaching the resumption interval (1061) - increasing resumption interval to 1062
+1031.856 (0) Creating zip file manifest (backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-uploads.zip.list-temp.tmp)
+1031.861 (0) Successfully created zip file manifest (size: 5269)
+1032.727 (0) Created uploads zip (0) - 39859.5 KB in 38.9 s (1024.8 KB/s) (sha1: 8813252956a3d5d2cbbfd0ebf147d2123e5c8923, sha256: ea29f1f6f25737042665ecbb68617b83d0eeece10b573ef4b1bc5ff675b9cf13)
+1032.740 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1032.742 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5f257ab9ad823b0676e733645333dada)
+1033.268 (0) Google Drive: quota usage: used=1162.8 MB, total=15360 MB, available=14197.2 MB
+1033.271 (0) Google Drive: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-uploads.zip: Attempting to upload to Google Drive (into folder id: 1XYd43tmLYhjxjos0mHDvqVmOgk9f7BaI)
+1034.687 (0) The time we have been running (1034.7) is approaching the resumption interval (1062) - increasing resumption interval to 1065
+1034.714 (0) Googledrive chunked upload: 2.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 114.7 / 137)
+1035.651 (0) The time we have been running (1035.6) is approaching the resumption interval (1065) - increasing resumption interval to 1066
+1035.656 (0) Googledrive chunked upload: 7.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 114.7 / 137)
+1036.668 (0) The time we have been running (1036.7) is approaching the resumption interval (1066) - increasing resumption interval to 1067
+1036.673 (0) Googledrive chunked upload: 18 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 114.7 / 137)
+1037.896 (0) The time we have been running (1037.9) is approaching the resumption interval (1067) - increasing resumption interval to 1068
+1037.903 (0) Googledrive chunked upload: 38.5 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 114.7 / 137)
+1039.396 (0) The time we have been running (1039.4) is approaching the resumption interval (1068) - increasing resumption interval to 1070
+1039.404 (0) Googledrive chunked upload: 79.6 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 114.7 / 137)
+1042.452 (0) The time we have been running (1042.4) is approaching the resumption interval (1070) - increasing resumption interval to 1073
+1042.457 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+1042.463 (0) Google Drive: OK: Archive backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-uploads.zip uploaded in 9.19 seconds
+1042.519 (0) Recording as successfully uploaded: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-uploads.zip
+1042.529 (0) Deleting local file: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-uploads.zip: OK
+1042.540 (0) Beginning backup of other directories found in the content directory (index: 0)
+1042.542 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+1042.544 (0) Looking for candidates to backup in: /home/affordab/public_html/rahapropertiesllc.com/wp-content
+1042.546 (0) finding files: themes: skipping: this is the themes directory
+1042.548 (0) finding files: index.php: adding to list (1)
+1042.549 (0) finding files: plugins: skipping: this is the plugins directory
+1042.551 (0) finding files: uploads: skipping: this is the uploads directory
+1042.552 (0) finding files: upgrade: skipping: excluded by options
+1042.554 (0) finding files: advanced-cache.php: adding to list (2)
+1042.556 (0) finding files: wp-cache-config.php: adding to list (3)
+1042.558 (0) finding files: cache: skipping: excluded by options
+1042.560 (0) finding files: updraft: skipping: this is the updraft directory
+1042.561 (0) finding files: mu-plugins: adding to list (4)
+1042.719 (0) Total entities for the zip file: 1 directories, 4 files (0 skipped as non-modified), 0 MB
+1042.746 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-others.zip.tmp: size is now: 0.00 MB
+1042.753 (0) Creating zip file manifest (backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-others.zip.list-temp.tmp)
+1042.821 (0) Successfully created zip file manifest (size: 145)
+1042.830 (0) Created others zip (0) - 4.4 KB in 0.2 s (25.2 KB/s) (sha1: 9c5470185b90a32dc728060dbb793d1095656881, sha256: 80468e2e5d48b43005e86ee7fdb6e1f6baabe9a93c8548474b2d3d0619e4c7cd)
+1042.838 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1042.840 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5f257ab9ad823b0676e733645333dada)
+1043.379 (0) Google Drive: quota usage: used=1201.7 MB, total=15360 MB, available=14158.3 MB
+1043.382 (0) Google Drive: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-others.zip: Attempting to upload to Google Drive (into folder id: 1XYd43tmLYhjxjos0mHDvqVmOgk9f7BaI)
+1045.145 (0) The time we have been running (1045.1) is approaching the resumption interval (1073) - increasing resumption interval to 1076
+1045.151 (0) Googledrive chunked upload: 100 % uploaded
+1045.157 (0) Google Drive: OK: Archive backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-others.zip uploaded in 1.77 seconds
+1045.158 (0) Recording as successfully uploaded: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-others.zip
+1045.163 (0) Deleting local file: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-others.zip: OK
+1045.175 (0) Saving backup status to database (elements: 8)
+1045.180 (0) Beginning creation of database dump (WordPress DB)
+1045.183 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+1045.188 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+1045.228 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `ncUam8N_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 (truncated - 1575 bytes total)
+1045.231 (0) Working binary mysqldump found: /usr/bin/mysqldump
+1045.280 (0) Table ncUam8N_options: Total expected rows (via COUNT): 763
+1045.496 (0) Table ncUam8N_options: Rows added in this batch (next record: 6776): 759 (uncompressed bytes in this segment=7712143) in 0.25 seconds
+1045.506 (0) Table ncUam8N_options: finishing file(s) (2, 869.7 KB)
+1045.516 (0) Table ncUam8N_users: Total expected rows (via COUNT): 1
+1045.519 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1045.524 (0) Table ncUam8N_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1433) in 0.01 seconds
+1045.531 (0) Table ncUam8N_users: finishing file(s) (2, 0.6 KB)
+1045.545 (0) Table ncUam8N_usermeta: Total expected rows (via COUNT): 45
+1045.547 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1045.553 (0) Table ncUam8N_usermeta: Rows added in this batch (next record: 67): 45 (uncompressed bytes in this segment=18244) in 0.02 seconds
+1045.562 (0) Table ncUam8N_usermeta: finishing file(s) (2, 6 KB)
+1045.576 (0) Table ncUam8N_actionscheduler_actions: Total expected rows (via COUNT): 68
+1045.579 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1045.586 (0) Table ncUam8N_actionscheduler_actions: Rows added in this batch (next record: 74): 68 (uncompressed bytes in this segment=27895) in 0.02 seconds
+1045.609 (0) Table ncUam8N_actionscheduler_actions: finishing file(s) (2, 2.9 KB)
+1045.621 (0) Table ncUam8N_actionscheduler_claims: Total expected rows (via COUNT): 0
+1045.625 (0) Table ncUam8N_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=652) in 0.01 seconds
+1045.632 (0) Table ncUam8N_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+1045.641 (0) Table ncUam8N_actionscheduler_groups: Total expected rows (via COUNT): 3
+1045.643 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1045.648 (0) Table ncUam8N_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=778) in 0.01 seconds
+1045.654 (0) Table ncUam8N_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+1045.666 (0) Table ncUam8N_actionscheduler_logs: Total expected rows (via COUNT): 192
+1045.668 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1045.675 (0) Table ncUam8N_actionscheduler_logs: Rows added in this batch (next record: 192): 192 (uncompressed bytes in this segment=16974) in 0.01 seconds
+1045.682 (0) Table ncUam8N_actionscheduler_logs: finishing file(s) (2, 2.1 KB)
+1045.695 (0) Table ncUam8N_commentmeta: Total expected rows (via COUNT): 0
+1045.699 (0) Table ncUam8N_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=707) in 0.01 seconds
+1045.721 (0) Table ncUam8N_commentmeta: finishing file(s) (2, 0.4 KB)
+1045.735 (0) Table ncUam8N_comments: Total expected rows (via COUNT): 1
+1045.737 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1045.742 (0) Table ncUam8N_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2203) in 0.02 seconds
+1045.748 (0) Table ncUam8N_comments: finishing file(s) (2, 0.8 KB)
+1045.758 (0) Table ncUam8N_links: Total expected rows (via COUNT): 0
+1045.763 (0) Table ncUam8N_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1328) in 0.01 seconds
+1045.769 (0) Table ncUam8N_links: finishing file(s) (2, 0.5 KB)
+1045.826 (0) Table ncUam8N_postmeta: Total expected rows (approximate): 1288
+1046.351 (0) Table ncUam8N_postmeta: Rows added in this batch (next record: 1803): 1667 (uncompressed bytes in this segment=12675436) in 0.58 seconds
+1046.431 (0) The time we have been running (1046.4) is approaching the resumption interval (1076) - increasing resumption interval to 1077
+1046.443 (0) Table ncUam8N_postmeta: finishing file(s) (2, 912.7 KB)
+1046.458 (0) Table ncUam8N_posts: Total expected rows (via COUNT): 199
+1046.460 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1046.534 (0) Table ncUam8N_posts: Rows added in this batch (next record: 567): 199 (uncompressed bytes in this segment=724109) in 0.09 seconds
+1046.542 (0) Table ncUam8N_posts: finishing file(s) (2, 32.3 KB)
+1046.550 (0) Table ncUam8N_term_relationships: Total expected rows (approximate): 45
+1046.618 (0) Table ncUam8N_term_relationships: Rows added in this batch (next record: 100000): 46 (uncompressed bytes in this segment=1401) in 0.07 seconds
+1046.626 (0) Table ncUam8N_term_relationships: finishing file(s) (2, 0.5 KB)
+1046.640 (0) Table ncUam8N_term_taxonomy: Total expected rows (via COUNT): 29
+1046.642 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1046.647 (0) Table ncUam8N_term_taxonomy: Rows added in this batch (next record: 29): 29 (uncompressed bytes in this segment=2075) in 0.01 seconds
+1046.655 (0) Table ncUam8N_term_taxonomy: finishing file(s) (2, 0.7 KB)
+1046.665 (0) Table ncUam8N_termmeta: Total expected rows (via COUNT): 9
+1046.718 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1046.724 (0) Table ncUam8N_termmeta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1145) in 0.06 seconds
+1046.734 (0) Table ncUam8N_termmeta: finishing file(s) (2, 0.5 KB)
+1046.742 (0) Table ncUam8N_terms: Total expected rows (via COUNT): 29
+1046.744 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1046.748 (0) Table ncUam8N_terms: Rows added in this batch (next record: 29): 29 (uncompressed bytes in this segment=1737) in 0.01 seconds
+1046.753 (0) Table ncUam8N_terms: finishing file(s) (2, 0.7 KB)
+1046.761 (0) Table ncUam8N_wc_category_lookup: Total expected rows (approximate): 0
+1046.821 (0) Table ncUam8N_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=616) in 0.06 seconds
+1046.828 (0) Table ncUam8N_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+1046.838 (0) Table ncUam8N_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+1046.841 (0) Table ncUam8N_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1379) in 0.01 seconds
+1046.847 (0) Table ncUam8N_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+1046.857 (0) Table ncUam8N_wc_reserved_stock: Total expected rows (approximate): 0
+1046.859 (0) Table ncUam8N_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=687) in 0.01 seconds
+1046.921 (0) Table ncUam8N_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+1046.931 (0) Table ncUam8N_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+1046.933 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1046.940 (0) Table ncUam8N_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=843) in 0.01 seconds
+1046.946 (0) Table ncUam8N_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+1046.957 (0) Table ncUam8N_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+1046.961 (0) Table ncUam8N_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=793) in 0.01 seconds
+1047.024 (0) The time we have been running (1047) is approaching the resumption interval (1077) - increasing resumption interval to 1078
+1047.030 (0) Table ncUam8N_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+1047.045 (0) Table ncUam8N_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+1047.047 (0) Table ncUam8N_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=820) in 0.01 seconds
+1047.057 (0) Table ncUam8N_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+1047.066 (0) Table ncUam8N_e_events: Total expected rows (via COUNT): 0
+1047.119 (0) Table ncUam8N_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=555) in 0.06 seconds
+1047.125 (0) Table ncUam8N_e_events: finishing file(s) (2, 0.4 KB)
+1047.138 (0) Table ncUam8N_ere_save_search: Total expected rows (via COUNT): 0
+1047.140 (0) Table ncUam8N_ere_save_search: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=853) in 0.01 seconds
+1047.151 (0) Table ncUam8N_ere_save_search: finishing file(s) (2, 0.4 KB)
+1047.163 (0) Table ncUam8N_wc_admin_note_actions: Total expected rows (via COUNT): 101
+1047.165 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1047.223 (0) Table ncUam8N_wc_admin_note_actions: Rows added in this batch (next record: 1707): 101 (uncompressed bytes in this segment=20657) in 0.07 seconds
+1047.231 (0) Table ncUam8N_wc_admin_note_actions: finishing file(s) (2, 3.2 KB)
+1047.243 (0) Table ncUam8N_wc_admin_notes: Total expected rows (via COUNT): 73
+1047.245 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1047.255 (0) Table ncUam8N_wc_admin_notes: Rows added in this batch (next record: 73): 73 (uncompressed bytes in this segment=36079) in 0.02 seconds
+1047.264 (0) Table ncUam8N_wc_admin_notes: finishing file(s) (2, 7.4 KB)
+1047.327 (0) Table ncUam8N_wc_customer_lookup: Total expected rows (via COUNT): 0
+1047.332 (0) Table ncUam8N_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1288) in 0.01 seconds
+1047.339 (0) Table ncUam8N_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+1047.348 (0) Table ncUam8N_wc_download_log: Total expected rows (via COUNT): 0
+1047.355 (0) Table ncUam8N_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.01 seconds
+1047.361 (0) Table ncUam8N_wc_download_log: finishing file(s) (2, 0.4 KB)
+1047.421 (0) Table ncUam8N_wc_order_coupon_lookup: Total expected rows (approximate): 0
+1047.423 (0) Table ncUam8N_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=739) in 0.06 seconds
+1047.430 (0) Table ncUam8N_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+1047.439 (0) Table ncUam8N_wc_order_product_lookup: Total expected rows (via COUNT): 0
+1047.442 (0) Table ncUam8N_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1233) in 0.01 seconds
+1047.447 (0) Table ncUam8N_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+1047.457 (0) Table ncUam8N_wc_order_stats: Total expected rows (via COUNT): 0
+1047.518 (0) Table ncUam8N_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1249) in 0.07 seconds
+1047.524 (0) Table ncUam8N_wc_order_stats: finishing file(s) (2, 0.5 KB)
+1047.533 (0) Table ncUam8N_wc_order_tax_lookup: Total expected rows (approximate): 0
+1047.535 (0) Table ncUam8N_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=821) in 0.01 seconds
+1047.541 (0) Table ncUam8N_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+1047.549 (0) Table ncUam8N_wc_product_attributes_lookup: Total expected rows (approximate): 0
+1047.551 (0) Table ncUam8N_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=880) in 0.01 seconds
+1047.557 (0) Table ncUam8N_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+1047.622 (0) Table ncUam8N_wc_product_download_directories: Total expected rows (via COUNT): 2
+1047.626 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1047.631 (0) Table ncUam8N_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=975) in 0.01 seconds
+1047.637 (0) Table ncUam8N_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+1047.647 (0) Table ncUam8N_wc_rate_limits: Total expected rows (via COUNT): 0
+1047.651 (0) Table ncUam8N_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=718) in 0.01 seconds
+1047.657 (0) Table ncUam8N_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+1047.723 (0) Table ncUam8N_wc_webhooks: Total expected rows (via COUNT): 0
+1047.725 (0) Table ncUam8N_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1245) in 0.01 seconds
+1047.731 (0) Table ncUam8N_wc_webhooks: finishing file(s) (2, 0.5 KB)
+1047.743 (0) Table ncUam8N_woocommerce_api_keys: Total expected rows (via COUNT): 0
+1047.745 (0) Table ncUam8N_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1068) in 0.01 seconds
+1047.754 (0) Table ncUam8N_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+1047.765 (0) Table ncUam8N_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+1047.819 (0) Table ncUam8N_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=984) in 0.06 seconds
+1047.825 (0) Table ncUam8N_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+1047.834 (0) Table ncUam8N_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+1047.837 (0) Table ncUam8N_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1548) in 0.01 seconds
+1047.844 (0) Table ncUam8N_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+1047.855 (0) Table ncUam8N_woocommerce_log: Total expected rows (via COUNT): 0
+1047.857 (0) Table ncUam8N_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=745) in 0.01 seconds
+1047.920 (0) Table ncUam8N_woocommerce_log: finishing file(s) (2, 0.4 KB)
+1047.930 (0) Table ncUam8N_woocommerce_order_items: Total expected rows (via COUNT): 0
+1047.932 (0) Table ncUam8N_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.01 seconds
+1047.939 (0) Table ncUam8N_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+1047.947 (0) Table ncUam8N_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+1047.949 (0) Table ncUam8N_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=863) in 0.01 seconds
+1047.956 (0) Table ncUam8N_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+1048.020 (0) Table ncUam8N_woocommerce_sessions: Total expected rows (via COUNT): 1
+1048.024 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1048.028 (0) Table ncUam8N_woocommerce_sessions: Rows added in this batch (next record: 5): 1 (uncompressed bytes in this segment=2199) in 0.07 seconds
+1048.040 (0) The time we have been running (1048) is approaching the resumption interval (1078) - increasing resumption interval to 1079
+1048.048 (0) Table ncUam8N_woocommerce_sessions: finishing file(s) (2, 0.8 KB)
+1048.061 (0) Table ncUam8N_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+1048.122 (0) Table ncUam8N_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=896) in 0.06 seconds
+1048.129 (0) Table ncUam8N_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+1048.138 (0) Table ncUam8N_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+1048.140 (0) Table ncUam8N_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=793) in 0.01 seconds
+1048.146 (0) Table ncUam8N_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+1048.153 (0) Table ncUam8N_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+1048.155 (0) Table ncUam8N_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=655) in 0.00 seconds
+1048.160 (0) Table ncUam8N_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+1048.226 (0) Table ncUam8N_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+1048.228 (0) Table ncUam8N_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=870) in 0.01 seconds
+1048.233 (0) Table ncUam8N_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+1048.241 (0) Table ncUam8N_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+1048.242 (0) Table ncUam8N_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1313) in 0.00 seconds
+1048.248 (0) Table ncUam8N_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+1048.257 (0) Table ncUam8N_wpfm_backup: Total expected rows (via COUNT): 0
+1048.259 (0) Table ncUam8N_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=540) in 0.01 seconds
+1048.323 (0) Table ncUam8N_wpfm_backup: finishing file(s) (2, 0.3 KB)
+1048.335 (0) Table ncUam8N_wpforms_payment_meta: Total expected rows (via COUNT): 0
+1048.338 (0) Table ncUam8N_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.01 seconds
+1048.345 (0) Table ncUam8N_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+1048.356 (0) Table ncUam8N_wpforms_payments: Total expected rows (via COUNT): 0
+1048.361 (0) Table ncUam8N_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1988) in 0.01 seconds
+1048.420 (0) Table ncUam8N_wpforms_payments: finishing file(s) (2, 0.6 KB)
+1048.433 (0) Table ncUam8N_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+1048.434 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1048.439 (0) Table ncUam8N_wpforms_tasks_meta: Rows added in this batch (next record: 9): 4 (uncompressed bytes in this segment=1005) in 0.01 seconds
+1048.446 (0) Table ncUam8N_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+1048.520 (0) Table ncUam8N_yoast_indexable: Total expected rows (via COUNT): 55
+1048.522 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1048.530 (0) Table ncUam8N_yoast_indexable: Rows added in this batch (next record: 55): 55 (uncompressed bytes in this segment=34565) in 0.08 seconds
+1048.537 (0) Table ncUam8N_yoast_indexable: finishing file(s) (2, 6 KB)
+1048.546 (0) Table ncUam8N_yoast_indexable_hierarchy: Total expected rows (approximate): 51
+1048.619 (0) Table ncUam8N_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 52 (uncompressed bytes in this segment=1644) in 0.08 seconds
+1048.625 (0) Table ncUam8N_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+1048.635 (0) Table ncUam8N_yoast_migrations: Total expected rows (via COUNT): 24
+1048.637 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1048.641 (0) Table ncUam8N_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1306) in 0.01 seconds
+1048.647 (0) Table ncUam8N_yoast_migrations: finishing file(s) (2, 0.6 KB)
+1048.656 (0) Table ncUam8N_yoast_primary_term: Total expected rows (via COUNT): 23
+1048.657 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1048.660 (0) Table ncUam8N_yoast_primary_term: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=2898) in 0.01 seconds
+1048.720 (0) Table ncUam8N_yoast_primary_term: finishing file(s) (2, 0.8 KB)
+1048.730 (0) Table ncUam8N_yoast_seo_links: Total expected rows (via COUNT): 89
+1048.732 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1048.737 (0) Table ncUam8N_yoast_seo_links: Rows added in this batch (next record: 93): 89 (uncompressed bytes in this segment=13142) in 0.01 seconds
+1048.744 (0) Table ncUam8N_yoast_seo_links: finishing file(s) (2, 1.9 KB)
+1048.746 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/affordab/public_html/rahapropertiesllc.com/wp-content/updraft/backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db.gz (line 1976, wp-content/plugins/updraftplus/backup.php)
+1048.749 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_options.table.tmpr6777.gz (1/57/fopen): adding to final database dump
+1048.857 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_options.table.gz (2/57/fopen): adding to final database dump
+1048.860 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_users.table.tmpr2.gz (3/57/fopen): adding to final database dump
+1048.862 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_users.table.gz (4/57/fopen): adding to final database dump
+1048.920 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_usermeta.table.tmpr68.gz (5/57/fopen): adding to final database dump
+1048.922 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_usermeta.table.gz (6/57/fopen): adding to final database dump
+1048.924 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_actionscheduler_actions.table.tmpr75.gz (7/57/fopen): adding to final database dump
+1048.926 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_actionscheduler_actions.table.gz (8/57/fopen): adding to final database dump
+1048.928 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_actionscheduler_claims.table.tmpr0.gz (9/57/fopen): adding to final database dump
+1048.930 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_actionscheduler_claims.table.gz (10/57/fopen): adding to final database dump
+1048.931 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_actionscheduler_groups.table.tmpr4.gz (11/57/fopen): adding to final database dump
+1048.933 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_actionscheduler_groups.table.gz (12/57/fopen): adding to final database dump
+1048.935 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_actionscheduler_logs.table.tmpr193.gz (13/57/fopen): adding to final database dump
+1048.937 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_actionscheduler_logs.table.gz (14/57/fopen): adding to final database dump
+1048.938 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_commentmeta.table.tmpr0.gz (15/57/fopen): adding to final database dump
+1048.940 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_commentmeta.table.gz (16/57/fopen): adding to final database dump
+1048.942 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_comments.table.tmpr2.gz (17/57/fopen): adding to final database dump
+1048.944 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_comments.table.gz (18/57/fopen): adding to final database dump
+1048.946 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_links.table.tmpr0.gz (19/57/fopen): adding to final database dump
+1048.947 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_links.table.gz (20/57/fopen): adding to final database dump
+1048.949 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_postmeta.table.tmpr1804.gz (21/57/fopen): adding to final database dump
+1049.520 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_postmeta.table.gz (22/57/fopen): adding to final database dump
+1049.523 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_posts.table.tmpr568.gz (23/57/fopen): adding to final database dump
+1049.544 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_posts.table.gz (24/57/fopen): adding to final database dump
+1049.547 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_term_relationships.table.tmpr100001.gz (25/57/fopen): adding to final database dump
+1049.549 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_term_relationships.table.gz (26/57/fopen): adding to final database dump
+1049.550 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_term_taxonomy.table.tmpr30.gz (27/57/fopen): adding to final database dump
+1049.552 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_term_taxonomy.table.gz (28/57/fopen): adding to final database dump
+1049.554 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_termmeta.table.tmpr10.gz (29/57/fopen): adding to final database dump
+1049.556 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_termmeta.table.gz (30/57/fopen): adding to final database dump
+1049.558 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_terms.table.tmpr30.gz (31/57/fopen): adding to final database dump
+1049.560 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_terms.table.gz (32/57/fopen): adding to final database dump
+1049.561 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_category_lookup.table.tmpr1001.gz (33/57/fopen): adding to final database dump
+1049.563 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_category_lookup.table.gz (34/57/fopen): adding to final database dump
+1049.565 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_product_meta_lookup.table.tmpr0.gz (35/57/fopen): adding to final database dump
+1049.567 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_product_meta_lookup.table.gz (36/57/fopen): adding to final database dump
+1049.569 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_reserved_stock.table.tmpr1.gz (37/57/fopen): adding to final database dump
+1049.571 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_reserved_stock.table.gz (38/57/fopen): adding to final database dump
+1049.572 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_tax_rate_classes.table.tmpr3.gz (39/57/fopen): adding to final database dump
+1049.574 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_tax_rate_classes.table.gz (40/57/fopen): adding to final database dump
+1049.619 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_order_itemmeta.table.tmpr0.gz (41/57/fopen): adding to final database dump
+1049.621 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_order_itemmeta.table.gz (42/57/fopen): adding to final database dump
+1049.623 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/57/fopen): adding to final database dump
+1049.624 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_payment_tokenmeta.table.gz (44/57/fopen): adding to final database dump
+1049.626 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_e_events.table.tmpr0.gz (45/57/fopen): adding to final database dump
+1049.628 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_e_events.table.gz (46/57/fopen): adding to final database dump
+1049.630 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_ere_save_search.table.tmpr0.gz (47/57/fopen): adding to final database dump
+1049.632 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_ere_save_search.table.gz (48/57/fopen): adding to final database dump
+1049.633 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_admin_note_actions.table.tmpr1708.gz (49/57/fopen): adding to final database dump
+1049.636 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_admin_note_actions.table.gz (50/57/fopen): adding to final database dump
+1049.637 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_admin_notes.table.tmpr74.gz (51/57/fopen): adding to final database dump
+1049.640 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_admin_notes.table.gz (52/57/fopen): adding to final database dump
+1049.641 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_customer_lookup.table.tmpr0.gz (53/57/fopen): adding to final database dump
+1049.643 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_customer_lookup.table.gz (54/57/fopen): adding to final database dump
+1049.645 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_download_log.table.tmpr0.gz (55/57/fopen): adding to final database dump
+1049.647 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_download_log.table.gz (56/57/fopen): adding to final database dump
+1049.649 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_order_coupon_lookup.table.tmpr1.gz (57/57/fopen): adding to final database dump
+1049.651 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_order_coupon_lookup.table.gz (58/57/fopen): adding to final database dump
+1049.652 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_order_product_lookup.table.tmpr0.gz (59/57/fopen): adding to final database dump
+1049.654 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_order_product_lookup.table.gz (60/57/fopen): adding to final database dump
+1049.656 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_order_stats.table.tmpr0.gz (61/57/fopen): adding to final database dump
+1049.658 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_order_stats.table.gz (62/57/fopen): adding to final database dump
+1049.659 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_order_tax_lookup.table.tmpr1.gz (63/57/fopen): adding to final database dump
+1049.661 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_order_tax_lookup.table.gz (64/57/fopen): adding to final database dump
+1049.663 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_product_attributes_lookup.table.tmpr1.gz (65/57/fopen): adding to final database dump
+1049.665 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_product_attributes_lookup.table.gz (66/57/fopen): adding to final database dump
+1049.667 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_product_download_directories.table.tmpr3.gz (67/57/fopen): adding to final database dump
+1049.668 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_product_download_directories.table.gz (68/57/fopen): adding to final database dump
+1049.670 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_rate_limits.table.tmpr0.gz (69/57/fopen): adding to final database dump
+1049.672 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_rate_limits.table.gz (70/57/fopen): adding to final database dump
+1049.674 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_webhooks.table.tmpr0.gz (71/57/fopen): adding to final database dump
+1049.675 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wc_webhooks.table.gz (72/57/fopen): adding to final database dump
+1049.677 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_api_keys.table.tmpr0.gz (73/57/fopen): adding to final database dump
+1049.679 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_api_keys.table.gz (74/57/fopen): adding to final database dump
+1049.681 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_attribute_taxonomies.table.tmpr0.gz (75/57/fopen): adding to final database dump
+1049.682 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_attribute_taxonomies.table.gz (76/57/fopen): adding to final database dump
+1049.684 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_downloadable_product_permissions.table.tmpr0.gz (77/57/fopen): adding to final database dump
+1049.686 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_downloadable_product_permissions.table.gz (78/57/fopen): adding to final database dump
+1049.696 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_log.table.tmpr0.gz (79/57/fopen): adding to final database dump
+1049.719 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_log.table.gz (80/57/fopen): adding to final database dump
+1049.721 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_order_items.table.tmpr0.gz (81/57/fopen): adding to final database dump
+1049.723 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_order_items.table.gz (82/57/fopen): adding to final database dump
+1049.726 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_payment_tokens.table.tmpr0.gz (83/57/fopen): adding to final database dump
+1049.728 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_payment_tokens.table.gz (84/57/fopen): adding to final database dump
+1049.729 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_sessions.table.tmpr6.gz (85/57/fopen): adding to final database dump
+1049.731 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_sessions.table.gz (86/57/fopen): adding to final database dump
+1049.733 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_shipping_zone_locations.table.tmpr0.gz (87/57/fopen): adding to final database dump
+1049.734 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_shipping_zone_locations.table.gz (88/57/fopen): adding to final database dump
+1049.736 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_shipping_zone_methods.table.tmpr0.gz (89/57/fopen): adding to final database dump
+1049.738 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_shipping_zone_methods.table.gz (90/57/fopen): adding to final database dump
+1049.740 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_shipping_zones.table.tmpr0.gz (91/57/fopen): adding to final database dump
+1049.742 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_shipping_zones.table.gz (92/57/fopen): adding to final database dump
+1049.743 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_tax_rate_locations.table.tmpr0.gz (93/57/fopen): adding to final database dump
+1049.745 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_tax_rate_locations.table.gz (94/57/fopen): adding to final database dump
+1049.747 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_tax_rates.table.tmpr0.gz (95/57/fopen): adding to final database dump
+1049.749 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_woocommerce_tax_rates.table.gz (96/57/fopen): adding to final database dump
+1049.750 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wpfm_backup.table.tmpr0.gz (97/57/fopen): adding to final database dump
+1049.752 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wpfm_backup.table.gz (98/57/fopen): adding to final database dump
+1049.754 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wpforms_payment_meta.table.tmpr0.gz (99/57/fopen): adding to final database dump
+1049.761 (0) The time we have been running (1049.8) is approaching the resumption interval (1079) - increasing resumption interval to 1080
+1049.765 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wpforms_payment_meta.table.gz (100/57/fopen): adding to final database dump
+1049.766 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wpforms_payments.table.tmpr0.gz (101/57/fopen): adding to final database dump
+1049.768 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wpforms_payments.table.gz (102/57/fopen): adding to final database dump
+1049.770 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wpforms_tasks_meta.table.tmpr10.gz (103/57/fopen): adding to final database dump
+1049.772 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_wpforms_tasks_meta.table.gz (104/57/fopen): adding to final database dump
+1049.773 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_yoast_indexable.table.tmpr56.gz (105/57/fopen): adding to final database dump
+1049.775 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_yoast_indexable.table.gz (106/57/fopen): adding to final database dump
+1049.777 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_yoast_indexable_hierarchy.table.tmpr1001.gz (107/57/fopen): adding to final database dump
+1049.779 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_yoast_indexable_hierarchy.table.gz (108/57/fopen): adding to final database dump
+1049.781 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_yoast_migrations.table.tmpr25.gz (109/57/fopen): adding to final database dump
+1049.782 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_yoast_migrations.table.gz (110/57/fopen): adding to final database dump
+1049.784 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_yoast_primary_term.table.tmpr24.gz (111/57/fopen): adding to final database dump
+1049.786 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_yoast_primary_term.table.gz (112/57/fopen): adding to final database dump
+1049.788 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_yoast_seo_links.table.tmpr94.gz (113/57/fopen): adding to final database dump
+1049.790 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db-table-ncUam8N_yoast_seo_links.table.gz (114/57/fopen): adding to final database dump
+1049.803 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db.gz: finished writing out complete database file (1865.8 KB)
+1049.857 (0) Total database tables backed up: 57 (backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db.gz, size: 1910656, sha1: 84248ed6582d532df061ff388525757391b87ac8, sha256: e8cbca2258bfcf25455532a729c297c4c39f079dd027bc7f3a0ed31ef47c6dbe)
+1049.868 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip: plugins: This file has already been successfully uploaded
+1049.870 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip: themes: This file has already been successfully uploaded
+1049.871 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-uploads.zip: uploads: This file has already been successfully uploaded
+1049.873 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-others.zip: others: This file has already been successfully uploaded
+1049.875 (0) backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db.gz: db: This file has not yet been successfully uploaded: will queue
+1049.877 (0) Saving backup history. Total backup size: 152 MB
+1049.921 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+1049.928 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1049.930 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5f257ab9ad823b0676e733645333dada)
+1050.449 (0) Google Drive: quota usage: used=1201.7 MB, total=15360 MB, available=14158.3 MB
+1050.452 (0) Google Drive: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db.gz: Attempting to upload to Google Drive (into folder id: 1XYd43tmLYhjxjos0mHDvqVmOgk9f7BaI)
+1051.854 (0) The time we have been running (1051.8) is approaching the resumption interval (1080) - increasing resumption interval to 1082
+1051.861 (0) Googledrive chunked upload: 54.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 114.7 / 149)
+1054.472 (0) The time we have been running (1054.5) is approaching the resumption interval (1082) - increasing resumption interval to 1085
+1054.476 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+1054.482 (0) Google Drive: OK: Archive backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db.gz uploaded in 4.03 seconds
+1054.483 (0) Recording as successfully uploaded: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db.gz
+1054.487 (0) Deleting local file: backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-db.gz: OK
+1054.492 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1054.494 (0) Number of backup sets in history: 3; groups (db): 1
+1054.496 (0) Examining (for databases) backup set with group_id=0, nonce=9a65ab150f00, datestamp=1690601873 (Jul 29 2023 03:37:53)
+1054.497 (0) This backup set is the backup set just made, so will not be deleted.
+1054.497 (0) Examining (for databases) backup set with group_id=0, nonce=54aebb5d537c, datestamp=1689543791 (Jul 16 2023 21:43:11)
+1054.497 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1054.499 (0) Examining (for databases) backup set with group_id=0, nonce=b1d06675edc4, datestamp=1689543445 (Jul 16 2023 21:37:25)
+1054.499 (0) 1689543445: db: this set includes a database (backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-db.gz); db count is now 2
+1054.499 (0) 1689543445: db: over retain limit (2); will delete this database
+1054.499 (0) Delete file: backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-db.gz, service=googledrive
+1054.501 (0) Deleting local copy (backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-db.gz)
+1055.783 (0) Google Drive: backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-db.gz: Deletion failed: file was not found
+1055.794 (0) The time we have been running (1055.8) is approaching the resumption interval (1085) - increasing resumption interval to 1086
+1055.805 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+1055.821 (0) Number of backup sets in history: 3; groups (files): 1
+1055.823 (0) Examining (for files) backup set with nonce=9a65ab150f00, datestamp=1690601873 (Jul 29 2023 03:37:53)
+1055.823 (0) This backup set is the backup set just made, so will not be deleted.
+1055.825 (0) This backup set is the backup set just made, so will not be deleted.
+1055.825 (0) This backup set is the backup set just made, so will not be deleted.
+1055.825 (0) This backup set is the backup set just made, so will not be deleted.
+1055.825 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1055.827 (0) Examining (for files) backup set with nonce=54aebb5d537c, datestamp=1689543791 (Jul 16 2023 21:43:11)
+1055.827 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1055.827 (0) Examining (for files) backup set with nonce=b1d06675edc4, datestamp=1689543445 (Jul 16 2023 21:37:25)
+1055.827 (0) plugins: over retain limit (2); will delete this file entity
+1055.827 (0) themes: over retain limit (2); will delete this file entity
+1055.827 (0) uploads: over retain limit (2); will delete this file entity
+1055.827 (0) others: over retain limit (2); will delete this file entity
+1055.827 (0) Delete file: backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-plugins.zip, service=googledrive
+1055.829 (0) Deleting local copy (backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-plugins.zip)
+1055.836 (0) Delete file: backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-themes.zip, service=googledrive
+1055.838 (0) Deleting local copy (backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-themes.zip)
+1055.841 (0) Delete file: backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-uploads.zip, service=googledrive
+1055.843 (0) Deleting local copy (backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-uploads.zip)
+1055.844 (0) Delete file: backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-others.zip, service=googledrive
+1055.846 (0) Deleting local copy (backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-others.zip)
+1058.057 (0) Google Drive: backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-plugins.zip: Deletion failed: file was not found
+1058.060 (0) Google Drive: backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-themes.zip: Deletion failed: file was not found
+1058.062 (0) Google Drive: backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-uploads.zip: Deletion failed: file was not found
+1058.066 (0) Google Drive: backup_2023-07-16-2137_Calculating_Infinity_b1d06675edc4-others.zip: Deletion failed: file was not found
+1058.083 (0) The time we have been running (1058.1) is approaching the resumption interval (1086) - increasing resumption interval to 1089
+1058.087 (0) This backup set is now empty; will remove from history
+1058.089 (0) Deleting log file (log.b1d06675edc4.txt)
+1058.091 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1058.098 (0) Resume backup (9a65ab150f00, 0): finish run
+1058.104 (0) Decremented the semaphore (fd) by 1
+1058.108 (0) Semaphore (fd) unlocked
+1058.109 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+1058.126 (0) Deleting zip manifest (backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-plugins.zip.list.tmp)
+1058.131 (0) Deleting zip manifest (backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-themes.zip.list.tmp)
+1058.133 (0) Deleting zip manifest (backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-uploads.zip.list.tmp)
+1058.135 (0) Deleting zip manifest (backup_2023-07-29-0337_Raha_Properties_9a65ab150f00-others.zip.list.tmp)
+1058.145 (0) Fetching RSS news feed
+1058.723 (0) Fetched RSS news feed; result is a: SimplePie
+1058.743 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: stock...
+1058.941 (0) The backup apparently succeeded and is now complete

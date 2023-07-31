@@ -1,0 +1,161 @@
+0000.000 (0) Opened log file at time: Sat, 29 Jul 2023 03:22:54 +0000 on https://rahapropertiesllc.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.0.28 (litespeed, Linux ls1.spacewelt.com 4.18.0-425.13.1.lve.el8.x86_64 #1 SMP Mon Feb 27 15:23:24 EST 2023 x86_64) MySQL: 8.0.33 (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 129M | 132M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.032 (0) Free space on disk containing Updraft's temporary directory: 324228.3 MB
+0000.036 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.040 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.045 (0) Set semaphore last lock (fd) time to 2023-07-29 03:22:54
+0000.047 (0) Semaphore lock (fd) complete
+0000.090 (0) Backup run: resumption=0, nonce=7f85a612625c, file_nonce=7f85a612625c begun at=1690600974 (0s ago), job type=backup
+0000.095 (0) Scheduling a resumption (1) after 300 seconds (1690601275) in case this run gets aborted
+0000.109 (0) Checking if we have a zip executable available
+0000.112 (0) Testing: /usr/bin/zip
+0000.117 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.119 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.121 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.123 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.125 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.140 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.143 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.191 (0) Working binary zip found: /usr/bin/zip
+0000.195 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.197 (0) Creation of backups of directories: beginning
+0000.202 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.316 (0) Total entities for the zip file: 3405 directories, 17425 files (0 skipped as non-modified), 254.9 MB
+0001.323 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.327 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.332 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.385 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.392 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.399 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.405 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.412 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.418 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.425 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.427 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.1 MB, 17425 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0006.406 (0) backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: size is now: 5.50 MB
+0006.414 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 1100 files added (on-disk size: 5599 KB)
+0006.418 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 1200 files added (on-disk size: 5599 KB)
+0006.423 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 1300 files added (on-disk size: 5599 KB)
+0006.427 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 1400 files added (on-disk size: 5599 KB)
+0006.432 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 1500 files added (on-disk size: 5599 KB)
+0006.437 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 1600 files added (on-disk size: 5599 KB)
+0006.441 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 1700 files added (on-disk size: 5599 KB)
+0006.446 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 1800 files added (on-disk size: 5599 KB)
+0006.450 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 1900 files added (on-disk size: 5599 KB)
+0006.486 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 2000 files added (on-disk size: 5599 KB)
+0006.488 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.6 MB, 17425 files batched, 1001 (2002) added so far); re-opening (prior size: 5599 KB)
+0024.872 (0) backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: size is now: 8.10 MB
+0024.883 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 2100 files added (on-disk size: 8327.1 KB)
+0024.892 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 2200 files added (on-disk size: 8327.1 KB)
+0024.898 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 2300 files added (on-disk size: 8327.1 KB)
+0024.902 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 2400 files added (on-disk size: 8327.1 KB)
+0024.908 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 2500 files added (on-disk size: 8327.1 KB)
+0024.912 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 2600 files added (on-disk size: 8327.1 KB)
+0024.916 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 2700 files added (on-disk size: 8327.1 KB)
+0024.921 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 2800 files added (on-disk size: 8327.1 KB)
+0024.925 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 2900 files added (on-disk size: 8327.1 KB)
+0024.929 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 3000 files added (on-disk size: 8327.1 KB)
+0024.931 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.4 MB, 17425 files batched, 1001 (3003) added so far); re-opening (prior size: 8327.1 KB)
+0050.716 (0) backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: size is now: 12.10 MB
+0050.741 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 3100 files added (on-disk size: 12418 KB)
+0050.745 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 3200 files added (on-disk size: 12418 KB)
+0050.750 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 3300 files added (on-disk size: 12418 KB)
+0050.759 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 3400 files added (on-disk size: 12418 KB)
+0050.764 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 3500 files added (on-disk size: 12418 KB)
+0050.769 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 3600 files added (on-disk size: 12418 KB)
+0050.774 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 3700 files added (on-disk size: 12418 KB)
+0050.778 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 3800 files added (on-disk size: 12418 KB)
+0050.783 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 3900 files added (on-disk size: 12418 KB)
+0050.789 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 4000 files added (on-disk size: 12418 KB)
+0050.791 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.2 MB, 17425 files batched, 1001 (4004) added so far); re-opening (prior size: 12418 KB)
+0077.024 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 4100 files added (on-disk size: 13939.1 KB)
+0077.031 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 4200 files added (on-disk size: 13939.1 KB)
+0077.038 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 4300 files added (on-disk size: 13939.1 KB)
+0077.044 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 4400 files added (on-disk size: 13939.1 KB)
+0077.051 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 4500 files added (on-disk size: 13939.1 KB)
+0077.058 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 4600 files added (on-disk size: 13939.1 KB)
+0077.064 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 4700 files added (on-disk size: 13939.1 KB)
+0077.070 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 4800 files added (on-disk size: 13939.1 KB)
+0077.077 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 4900 files added (on-disk size: 13939.1 KB)
+0077.085 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 5000 files added (on-disk size: 13939.1 KB)
+0077.088 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.6 MB, 17425 files batched, 1001 (5005) added so far); re-opening (prior size: 13939.1 KB)
+0109.360 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 5100 files added (on-disk size: 15517.1 KB)
+0109.374 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 5200 files added (on-disk size: 15517.1 KB)
+0109.380 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 5300 files added (on-disk size: 15517.1 KB)
+0109.385 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 5400 files added (on-disk size: 15517.1 KB)
+0109.390 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 5500 files added (on-disk size: 15517.1 KB)
+0109.398 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 5600 files added (on-disk size: 15517.1 KB)
+0109.403 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 5700 files added (on-disk size: 15517.1 KB)
+0109.411 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 5800 files added (on-disk size: 15517.1 KB)
+0109.417 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 5900 files added (on-disk size: 15517.1 KB)
+0109.422 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 6000 files added (on-disk size: 15517.1 KB)
+0109.424 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.1 MB, 17425 files batched, 1001 (6006) added so far); re-opening (prior size: 15517.1 KB)
+0152.885 (0) backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: size is now: 22.50 MB
+0152.901 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 6100 files added (on-disk size: 22998.2 KB)
+0152.906 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 6200 files added (on-disk size: 22998.2 KB)
+0152.910 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 6300 files added (on-disk size: 22998.2 KB)
+0152.915 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 6400 files added (on-disk size: 22998.2 KB)
+0152.920 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 6500 files added (on-disk size: 22998.2 KB)
+0152.925 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 6600 files added (on-disk size: 22998.2 KB)
+0152.929 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 6700 files added (on-disk size: 22998.2 KB)
+0152.948 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 6800 files added (on-disk size: 22998.2 KB)
+0152.952 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 6900 files added (on-disk size: 22998.2 KB)
+0152.987 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 7000 files added (on-disk size: 22998.2 KB)
+0152.990 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13 MB, 17425 files batched, 1001 (7007) added so far); re-opening (prior size: 22998.2 KB)
+0205.718 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 7100 files added (on-disk size: 26846 KB)
+0205.729 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 7200 files added (on-disk size: 26846 KB)
+0205.787 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 7300 files added (on-disk size: 26846 KB)
+0205.792 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 7400 files added (on-disk size: 26846 KB)
+0205.797 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 7500 files added (on-disk size: 26846 KB)
+0205.802 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 7600 files added (on-disk size: 26846 KB)
+0205.806 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 7700 files added (on-disk size: 26846 KB)
+0205.810 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 7800 files added (on-disk size: 26846 KB)
+0205.813 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 17425 files batched, 834 (7841) added so far); re-opening (prior size: 26846 KB)
+0272.904 (0) backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: size is now: 33.00 MB
+0272.926 (0) The time we have been running (272.9) is approaching the resumption interval (300) - increasing resumption interval to 303
+0272.930 (0) The scheduled resumption is within 45 seconds - will reschedule
+0272.935 (0) Rescheduling resumption 1: moving to 348 seconds from now (1690601595)
+0272.942 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 303 + 45 = 348
+0272.944 (0) A useful amount of data was added after this amount of zip processing: 67.8 s (normalised: 67.2 s, rate: 380.8 KB/s)
+0272.948 (0) Performance is good - will increase the amount of data we attempt to batch (time=67.848962068558, normalised_time=67.230128107384, max_time=272.94533920288, data points known=1, old_max_bytes=26214400, new_max_bytes=63856177)
+0272.953 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 7900 files added (on-disk size: 33832.6 KB)
+0272.958 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 8000 files added (on-disk size: 33832.6 KB)
+0272.963 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 8100 files added (on-disk size: 33832.6 KB)
+0272.967 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 8200 files added (on-disk size: 33832.6 KB)
+0272.972 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 8300 files added (on-disk size: 33832.6 KB)
+0272.977 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 8400 files added (on-disk size: 33832.6 KB)
+0272.982 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 8500 files added (on-disk size: 33832.6 KB)
+0272.988 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 8600 files added (on-disk size: 33832.6 KB)
+0272.993 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 8700 files added (on-disk size: 33832.6 KB)
+0272.998 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 8800 files added (on-disk size: 33832.6 KB)
+0273.001 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.2 MB, 17425 files batched, 1001 (8842) added so far); re-opening (prior size: 33832.6 KB)
+0335.528 (0) The time we have been running (335.5) is approaching the resumption interval (348) - increasing resumption interval to 366
+0341.113 (0) The time we have been running (341.1) is approaching the resumption interval (366) - increasing resumption interval to 372
+0347.150 (0) The time we have been running (347.1) is approaching the resumption interval (372) - increasing resumption interval to 378
+0351.082 (0) The time we have been running (351.1) is approaching the resumption interval (378) - increasing resumption interval to 382
+0351.087 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 8900 files added (on-disk size: 38499.8 KB)
+0351.092 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 9000 files added (on-disk size: 38499.8 KB)
+0351.096 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 9100 files added (on-disk size: 38499.8 KB)
+0351.103 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 9200 files added (on-disk size: 38499.8 KB)
+0351.108 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 9300 files added (on-disk size: 38499.8 KB)
+0351.112 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 9400 files added (on-disk size: 38499.8 KB)
+0351.117 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 9500 files added (on-disk size: 38499.8 KB)
+0351.121 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 9600 files added (on-disk size: 38499.8 KB)
+0351.126 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 9700 files added (on-disk size: 38499.8 KB)
+0351.131 (0) Zip: backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: 9800 files added (on-disk size: 38499.8 KB)
+0351.134 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (27.8 MB, 17425 files batched, 1001 (9843) added so far); re-opening (prior size: 38499.8 KB)
+0417.868 (0) The time we have been running (417.9) is approaching the resumption interval (382) - increasing resumption interval to 448
+0423.333 (0) The time we have been running (423.3) is approaching the resumption interval (448) - increasing resumption interval to 454
+0429.215 (0) The time we have been running (429.2) is approaching the resumption interval (454) - increasing resumption interval to 460
+0435.277 (0) The time we have been running (435.3) is approaching the resumption interval (460) - increasing resumption interval to 466
+0441.241 (0) The time we have been running (441.2) is approaching the resumption interval (466) - increasing resumption interval to 472
+0447.130 (0) The time we have been running (447.1) is approaching the resumption interval (472) - increasing resumption interval to 478
+0453.426 (0) The time we have been running (453.4) is approaching the resumption interval (478) - increasing resumption interval to 484
+0459.704 (0) The time we have been running (459.7) is approaching the resumption interval (484) - increasing resumption interval to 490
+0459.785 (0) backup_2023-07-29-0322_Raha_Properties_7f85a612625c-plugins.zip.tmp: size is now: 55.90 MB
+0459.807 (0) User request for abort: backup job will be immediately halted
+0459.811 (0) Decremented the semaphore (fd) by 1
+0459.815 (0) Semaphore (fd) unlocked
+0459.817 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0459.886 (0) No email will/can be sent - the user has not configured an email address.
+0459.898 (0) The backup was aborted by the user

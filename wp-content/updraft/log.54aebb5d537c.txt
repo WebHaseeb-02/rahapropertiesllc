@@ -1,0 +1,603 @@
+0000.000 (0) Opened log file at time: Sun, 16 Jul 2023 21:43:11 +0000 on https://rahapropertiesllc.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.0.28 (litespeed, Linux ls1.spacewelt.com 4.18.0-425.13.1.lve.el8.x86_64 #1 SMP Mon Feb 27 15:23:24 EST 2023 x86_64) MySQL: 8.0.33 (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 87.2M | 89M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.032 (0) Free space on disk containing Updraft's temporary directory: 332343.6 MB
+0000.035 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.040 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.055 (0) Set semaphore last lock (fd) time to 2023-07-16 21:43:11
+0000.057 (0) Semaphore lock (fd) complete
+0000.063 (0) Backup run: resumption=0, nonce=54aebb5d537c, file_nonce=54aebb5d537c begun at=1689543791 (0s ago), job type=backup
+0000.067 (0) Scheduling a resumption (1) after 300 seconds (1689544091) in case this run gets aborted
+0000.080 (0) Checking if we have a zip executable available
+0000.082 (0) Testing: /usr/bin/zip
+0000.087 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.088 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.090 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.092 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.095 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.106 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.109 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.118 (0) Working binary zip found: /usr/bin/zip
+0000.121 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.123 (0) Creation of backups of directories: beginning
+0000.130 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.505 (0) Total entities for the zip file: 2320 directories, 12712 files (0 skipped as non-modified), 160 MB
+0000.510 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.515 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.519 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.524 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.528 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.532 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.537 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.541 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.546 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.550 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.552 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.8 MB, 12712 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.218 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: size is now: 3.20 MB
+0003.225 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 1100 files added (on-disk size: 3247.7 KB)
+0003.230 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 1200 files added (on-disk size: 3247.7 KB)
+0003.234 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 1300 files added (on-disk size: 3247.7 KB)
+0003.238 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 1400 files added (on-disk size: 3247.7 KB)
+0003.242 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 1500 files added (on-disk size: 3247.7 KB)
+0003.247 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 1600 files added (on-disk size: 3247.7 KB)
+0003.251 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 1700 files added (on-disk size: 3247.7 KB)
+0003.255 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 1800 files added (on-disk size: 3247.7 KB)
+0003.259 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 1900 files added (on-disk size: 3247.7 KB)
+0003.263 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 2000 files added (on-disk size: 3247.7 KB)
+0003.264 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.5 MB, 12712 files batched, 1001 (2002) added so far); re-opening (prior size: 3247.7 KB)
+0011.186 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: size is now: 8.00 MB
+0011.194 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 2100 files added (on-disk size: 8157.4 KB)
+0011.199 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 2200 files added (on-disk size: 8157.4 KB)
+0011.204 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 2300 files added (on-disk size: 8157.4 KB)
+0011.208 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 2400 files added (on-disk size: 8157.4 KB)
+0011.213 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 2500 files added (on-disk size: 8157.4 KB)
+0011.217 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 2600 files added (on-disk size: 8157.4 KB)
+0011.222 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 2700 files added (on-disk size: 8157.4 KB)
+0011.226 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 2800 files added (on-disk size: 8157.4 KB)
+0011.230 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 2900 files added (on-disk size: 8157.4 KB)
+0011.235 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 3000 files added (on-disk size: 8157.4 KB)
+0011.237 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.1 MB, 12712 files batched, 1001 (3003) added so far); re-opening (prior size: 8157.4 KB)
+0020.649 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 3100 files added (on-disk size: 9680.4 KB)
+0020.653 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 3200 files added (on-disk size: 9680.4 KB)
+0020.658 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 3300 files added (on-disk size: 9680.4 KB)
+0020.662 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 3400 files added (on-disk size: 9680.4 KB)
+0020.666 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 3500 files added (on-disk size: 9680.4 KB)
+0020.670 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 3600 files added (on-disk size: 9680.4 KB)
+0020.674 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 3700 files added (on-disk size: 9680.4 KB)
+0020.682 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 3800 files added (on-disk size: 9680.4 KB)
+0020.686 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 3900 files added (on-disk size: 9680.4 KB)
+0020.690 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 4000 files added (on-disk size: 9680.4 KB)
+0020.692 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.3 MB, 12712 files batched, 1001 (4004) added so far); re-opening (prior size: 9680.4 KB)
+0034.857 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: size is now: 14.20 MB
+0034.866 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 4100 files added (on-disk size: 14551.3 KB)
+0034.871 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 4200 files added (on-disk size: 14551.3 KB)
+0034.875 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 4300 files added (on-disk size: 14551.3 KB)
+0034.880 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 4400 files added (on-disk size: 14551.3 KB)
+0034.884 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 4500 files added (on-disk size: 14551.3 KB)
+0034.889 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 4600 files added (on-disk size: 14551.3 KB)
+0034.894 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 4700 files added (on-disk size: 14551.3 KB)
+0034.899 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 4800 files added (on-disk size: 14551.3 KB)
+0034.903 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 4900 files added (on-disk size: 14551.3 KB)
+0034.908 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 5000 files added (on-disk size: 14551.3 KB)
+0034.910 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.8 MB, 12712 files batched, 1001 (5005) added so far); re-opening (prior size: 14551.3 KB)
+0051.102 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 5100 files added (on-disk size: 16622.9 KB)
+0051.107 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 5200 files added (on-disk size: 16622.9 KB)
+0051.112 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 5300 files added (on-disk size: 16622.9 KB)
+0051.116 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 5400 files added (on-disk size: 16622.9 KB)
+0051.121 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 5500 files added (on-disk size: 16622.9 KB)
+0051.126 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 5600 files added (on-disk size: 16622.9 KB)
+0051.130 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 5700 files added (on-disk size: 16622.9 KB)
+0051.135 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 5800 files added (on-disk size: 16622.9 KB)
+0051.140 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 5900 files added (on-disk size: 16622.9 KB)
+0051.145 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 6000 files added (on-disk size: 16622.9 KB)
+0051.147 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.1 MB, 12712 files batched, 1001 (6006) added so far); re-opening (prior size: 16622.9 KB)
+0068.436 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 6100 files added (on-disk size: 17749.9 KB)
+0068.441 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 6200 files added (on-disk size: 17749.9 KB)
+0068.446 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 6300 files added (on-disk size: 17749.9 KB)
+0068.450 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 6400 files added (on-disk size: 17749.9 KB)
+0068.454 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 6500 files added (on-disk size: 17749.9 KB)
+0068.459 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 6600 files added (on-disk size: 17749.9 KB)
+0068.463 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 6700 files added (on-disk size: 17749.9 KB)
+0068.467 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 6800 files added (on-disk size: 17749.9 KB)
+0068.472 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 6900 files added (on-disk size: 17749.9 KB)
+0068.476 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 7000 files added (on-disk size: 17749.9 KB)
+0068.478 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.7 MB, 12712 files batched, 1001 (7007) added so far); re-opening (prior size: 17749.9 KB)
+0093.304 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: size is now: 24.90 MB
+0093.312 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 7100 files added (on-disk size: 25464.9 KB)
+0093.317 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 7200 files added (on-disk size: 25464.9 KB)
+0093.321 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 7300 files added (on-disk size: 25464.9 KB)
+0093.326 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 7400 files added (on-disk size: 25464.9 KB)
+0093.330 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 7500 files added (on-disk size: 25464.9 KB)
+0093.334 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 7600 files added (on-disk size: 25464.9 KB)
+0093.339 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 7700 files added (on-disk size: 25464.9 KB)
+0093.343 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 7800 files added (on-disk size: 25464.9 KB)
+0093.348 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 7900 files added (on-disk size: 25464.9 KB)
+0093.352 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 8000 files added (on-disk size: 25464.9 KB)
+0093.354 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.4 MB, 12712 files batched, 1001 (8008) added so far); re-opening (prior size: 25464.9 KB)
+0121.926 (0) PHP event: code E_WARNING: filesize(): stat failed for /home/affordab/public_html/rahapropertiesllc.com/wp-content/updraft/backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0121.938 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 8100 files added (on-disk size: 27759.8 KB)
+0121.942 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 8200 files added (on-disk size: 27759.8 KB)
+0121.949 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 8300 files added (on-disk size: 27759.8 KB)
+0121.955 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 8400 files added (on-disk size: 27759.8 KB)
+0121.959 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 8500 files added (on-disk size: 27759.8 KB)
+0121.964 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 8600 files added (on-disk size: 27759.8 KB)
+0121.968 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 8700 files added (on-disk size: 27759.8 KB)
+0121.972 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 8800 files added (on-disk size: 27759.8 KB)
+0121.977 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 8900 files added (on-disk size: 27759.8 KB)
+0121.984 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 9000 files added (on-disk size: 27759.8 KB)
+0121.986 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.2 MB, 12712 files batched, 1001 (9009) added so far); re-opening (prior size: 27759.8 KB)
+0159.005 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: size is now: 33.00 MB
+0159.012 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 9100 files added (on-disk size: 33820.5 KB)
+0159.017 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 9200 files added (on-disk size: 33820.5 KB)
+0159.021 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 9300 files added (on-disk size: 33820.5 KB)
+0159.026 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 9400 files added (on-disk size: 33820.5 KB)
+0159.030 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 9500 files added (on-disk size: 33820.5 KB)
+0159.034 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 9600 files added (on-disk size: 33820.5 KB)
+0159.040 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 9700 files added (on-disk size: 33820.5 KB)
+0159.044 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 9800 files added (on-disk size: 33820.5 KB)
+0159.048 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 9900 files added (on-disk size: 33820.5 KB)
+0159.053 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 10000 files added (on-disk size: 33820.5 KB)
+0159.055 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.1 MB, 12712 files batched, 1001 (10010) added so far); re-opening (prior size: 33820.5 KB)
+0198.262 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 10100 files added (on-disk size: 39832.7 KB)
+0198.270 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 10200 files added (on-disk size: 39832.7 KB)
+0198.278 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 10300 files added (on-disk size: 39832.7 KB)
+0198.285 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 10400 files added (on-disk size: 39832.7 KB)
+0198.291 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 10500 files added (on-disk size: 39832.7 KB)
+0198.298 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 10600 files added (on-disk size: 39832.7 KB)
+0198.305 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 10700 files added (on-disk size: 39832.7 KB)
+0198.310 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 12712 files batched, 765 (10775) added so far); re-opening (prior size: 39832.7 KB)
+0257.690 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: size is now: 54.90 MB
+0257.697 (0) The scheduled resumption is within 45 seconds - will reschedule
+0257.701 (0) Rescheduling resumption 1: moving to 345 seconds from now (1689544394)
+0257.707 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0257.709 (0) A useful amount of data was added after this amount of zip processing: 60.3 s (normalised: 60 s, rate: 426.5 KB/s)
+0257.713 (0) Performance is good - will increase the amount of data we attempt to batch (time=60.317749977112, normalised_time=60.016627428468, max_time=257.71078205109, data points known=1, old_max_bytes=26214400, new_max_bytes=67538618)
+0257.720 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 10800 files added (on-disk size: 56205.4 KB)
+0257.725 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 10900 files added (on-disk size: 56205.4 KB)
+0257.730 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 11000 files added (on-disk size: 56205.4 KB)
+0257.734 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 11100 files added (on-disk size: 56205.4 KB)
+0257.739 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 11200 files added (on-disk size: 56205.4 KB)
+0257.743 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 11300 files added (on-disk size: 56205.4 KB)
+0257.747 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 11400 files added (on-disk size: 56205.4 KB)
+0257.752 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 11500 files added (on-disk size: 56205.4 KB)
+0257.756 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 11600 files added (on-disk size: 56205.4 KB)
+0257.761 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 11700 files added (on-disk size: 56205.4 KB)
+0257.764 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13 MB, 12712 files batched, 1001 (11776) added so far); re-opening (prior size: 56205.4 KB)
+0316.404 (0) The time we have been running (316.4) is approaching the resumption interval (345) - increasing resumption interval to 347
+0322.506 (0) The time we have been running (322.5) is approaching the resumption interval (347) - increasing resumption interval to 353
+0329.021 (0) The time we have been running (329) is approaching the resumption interval (353) - increasing resumption interval to 360
+0329.038 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 11800 files added (on-disk size: 63875.7 KB)
+0329.042 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 11900 files added (on-disk size: 63875.7 KB)
+0329.046 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 12000 files added (on-disk size: 63875.7 KB)
+0329.051 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 12100 files added (on-disk size: 63875.7 KB)
+0329.056 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 12200 files added (on-disk size: 63875.7 KB)
+0329.061 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 12300 files added (on-disk size: 63875.7 KB)
+0329.065 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 12400 files added (on-disk size: 63875.7 KB)
+0329.069 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 12500 files added (on-disk size: 63875.7 KB)
+0329.073 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 12600 files added (on-disk size: 63875.7 KB)
+0329.078 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.tmp: 12700 files added (on-disk size: 63875.7 KB)
+0389.444 (0) The time we have been running (389.4) is approaching the resumption interval (360) - increasing resumption interval to 420
+0394.466 (0) The time we have been running (394.5) is approaching the resumption interval (420) - increasing resumption interval to 425
+0394.633 (0) Creating zip file manifest (backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.list-temp.tmp)
+0395.577 (0) Successfully created zip file manifest (size: 1183987)
+0396.279 (0) Created plugins zip (0) - 66368.1 KB in 396.1 s (167.5 KB/s) (sha1: 1ffbe5835940dffa6929bd05e65fa6aae2c64688, sha256: 48fbf8672f5564d7fea38323ab0c7f0f528519dcc2775c1acaf4aebb5fb5ff95)
+0396.295 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0396.299 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5f257ab9ad823b0676e733645333dada)
+0397.317 (0) Google Drive: creating path: /UpdraftPlus
+0398.835 (0) Google Drive: quota usage: used=2503.6 MB, total=2097152 MB, available=2094648.4 MB
+0398.838 (0) Google Drive: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip: Attempting to upload to Google Drive (into folder id: 1K2MGXvi3ZQBd3uB5oPOKCsB3A_kgJSAf)
+0400.246 (0) The time we have been running (400.2) is approaching the resumption interval (425) - increasing resumption interval to 431
+0400.250 (0) Googledrive chunked upload: 1.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 92 / 109)
+0401.163 (0) The time we have been running (401.2) is approaching the resumption interval (431) - increasing resumption interval to 432
+0401.167 (0) Googledrive chunked upload: 4.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 92 / 109)
+0402.223 (0) The time we have been running (402.2) is approaching the resumption interval (432) - increasing resumption interval to 433
+0402.227 (0) Googledrive chunked upload: 10.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 92 / 109)
+0403.520 (0) The time we have been running (403.5) is approaching the resumption interval (433) - increasing resumption interval to 434
+0403.525 (0) Googledrive chunked upload: 23.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 92 / 109)
+0405.057 (0) The time we have been running (405.1) is approaching the resumption interval (434) - increasing resumption interval to 436
+0405.061 (0) Googledrive chunked upload: 47.8 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 92 / 109)
+0407.066 (0) The time we have been running (407.1) is approaching the resumption interval (436) - increasing resumption interval to 438
+0407.070 (0) Googledrive chunked upload: 97.2 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 92 / 109)
+0409.770 (0) The time we have been running (409.8) is approaching the resumption interval (438) - increasing resumption interval to 440
+0409.773 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0409.778 (0) Google Drive: OK: Archive backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip uploaded in 10.94 seconds
+0409.780 (0) Recording as successfully uploaded: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip
+0409.791 (0) Deleting local file: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip: OK
+0409.803 (0) Beginning creation of dump of themes (split every: 400 MB)
+0409.945 (0) Total entities for the zip file: 78 directories, 372 files (0 skipped as non-modified), 12.4 MB
+0409.955 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0409.964 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0409.972 (0) Zip: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0415.494 (0) The time we have been running (415.5) is approaching the resumption interval (440) - increasing resumption interval to 446
+0419.487 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-themes.zip.tmp: size is now: 10.40 MB
+0419.496 (0) The time we have been running (419.5) is approaching the resumption interval (446) - increasing resumption interval to 450
+0419.505 (0) Creating zip file manifest (backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-themes.zip.list-temp.tmp)
+0419.512 (0) Successfully created zip file manifest (size: 26885)
+0419.638 (0) Created themes zip (0) - 10679.2 KB in 9.8 s (1093.9 KB/s) (sha1: e0d85e1c0efe11184a7f1913b91e8fe32910743a, sha256: 0960261a6c664bc58ba6401a1457833666780dad57439e0fe2c85177a49b2bd2)
+0419.645 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0419.647 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5f257ab9ad823b0676e733645333dada)
+0420.129 (0) Google Drive: quota usage: used=2568.4 MB, total=2097152 MB, available=2094583.6 MB
+0420.132 (0) Google Drive: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-themes.zip: Attempting to upload to Google Drive (into folder id: 1K2MGXvi3ZQBd3uB5oPOKCsB3A_kgJSAf)
+0421.617 (0) The time we have been running (421.6) is approaching the resumption interval (450) - increasing resumption interval to 452
+0421.621 (0) Googledrive chunked upload: 9.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 90 / 107)
+0422.533 (0) The time we have been running (422.5) is approaching the resumption interval (452) - increasing resumption interval to 453
+0422.537 (0) Googledrive chunked upload: 28.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 90 / 107)
+0423.538 (0) The time we have been running (423.5) is approaching the resumption interval (453) - increasing resumption interval to 454
+0423.542 (0) Googledrive chunked upload: 67.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 90 / 107)
+0426.316 (0) The time we have been running (426.3) is approaching the resumption interval (454) - increasing resumption interval to 457
+0426.320 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0426.326 (0) Google Drive: OK: Archive backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-themes.zip uploaded in 6.19 seconds
+0426.327 (0) Recording as successfully uploaded: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-themes.zip
+0426.332 (0) Deleting local file: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-themes.zip: OK
+0426.338 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0426.340 (0) Looking for candidates to backup in: /home/affordab/public_html/rahapropertiesllc.com/wp-content/uploads
+0426.342 (0) finding files: 2023: adding to list (1)
+0426.343 (0) finding files: wpcf7_uploads: adding to list (2)
+0426.345 (0) finding files: woocommerce_uploads: adding to list (3)
+0426.346 (0) finding files: wc-logs: adding to list (4)
+0426.348 (0) finding files: woocommerce-placeholder.png: adding to list (5)
+0426.349 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0426.396 (0) Total entities for the zip file: 5 directories, 6 files (0 skipped as non-modified), 0.1 MB
+0426.414 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-uploads.zip.tmp: size is now: 0.10 MB
+0426.418 (0) Creating zip file manifest (backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-uploads.zip.list-temp.tmp)
+0426.420 (0) Successfully created zip file manifest (size: 280)
+0426.429 (0) Created uploads zip (0) - 102.3 KB in 0 s (2988.4 KB/s) (sha1: 7bb8442a3613368bb0785b50c048ab98c5b225d3, sha256: 7742df2db9cea9c933fbfb017f03d65d6803e3539315fe6b1595ba0c781dc89a)
+0426.434 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0426.436 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5f257ab9ad823b0676e733645333dada)
+0426.915 (0) Google Drive: quota usage: used=2578.8 MB, total=2097152 MB, available=2094573.2 MB
+0426.917 (0) Google Drive: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-uploads.zip: Attempting to upload to Google Drive (into folder id: 1K2MGXvi3ZQBd3uB5oPOKCsB3A_kgJSAf)
+0429.819 (0) The time we have been running (429.8) is approaching the resumption interval (457) - increasing resumption interval to 460
+0429.823 (0) Googledrive chunked upload: 100 % uploaded
+0429.829 (0) Google Drive: OK: Archive backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-uploads.zip uploaded in 2.91 seconds
+0429.832 (0) Recording as successfully uploaded: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-uploads.zip
+0429.836 (0) Deleting local file: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-uploads.zip: OK
+0429.843 (0) Beginning backup of other directories found in the content directory (index: 0)
+0429.844 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0429.846 (0) Looking for candidates to backup in: /home/affordab/public_html/rahapropertiesllc.com/wp-content
+0429.848 (0) finding files: themes: skipping: this is the themes directory
+0429.850 (0) finding files: index.php: adding to list (1)
+0429.852 (0) finding files: plugins: skipping: this is the plugins directory
+0429.855 (0) finding files: uploads: skipping: this is the uploads directory
+0429.856 (0) finding files: upgrade: skipping: excluded by options
+0429.858 (0) finding files: advanced-cache.php: adding to list (2)
+0429.859 (0) finding files: wp-cache-config.php: adding to list (3)
+0429.861 (0) finding files: cache: skipping: excluded by options
+0429.863 (0) finding files: updraft: skipping: this is the updraft directory
+0429.896 (0) Total entities for the zip file: 0 directories, 3 files (0 skipped as non-modified), 0 MB
+0429.909 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-others.zip.tmp: size is now: 0.00 MB
+0429.914 (0) Creating zip file manifest (backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-others.zip.list-temp.tmp)
+0429.917 (0) Successfully created zip file manifest (size: 100)
+0429.925 (0) Created others zip (0) - 2.5 KB in 0 s (83.7 KB/s) (sha1: 543d423ee725106184afd9fa6e1a833a7f339693, sha256: c6c476bdc34cf95ee43d6dc073edd82ede3db2976e9f98108c32a66c5417d7d7)
+0429.932 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0429.934 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5f257ab9ad823b0676e733645333dada)
+0430.417 (0) Google Drive: quota usage: used=2578.9 MB, total=2097152 MB, available=2094573.1 MB
+0430.420 (0) Google Drive: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-others.zip: Attempting to upload to Google Drive (into folder id: 1K2MGXvi3ZQBd3uB5oPOKCsB3A_kgJSAf)
+0433.217 (0) The time we have been running (433.2) is approaching the resumption interval (460) - increasing resumption interval to 464
+0433.221 (0) Googledrive chunked upload: 100 % uploaded
+0433.227 (0) Google Drive: OK: Archive backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-others.zip uploaded in 2.81 seconds
+0433.229 (0) Recording as successfully uploaded: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-others.zip
+0433.233 (0) Deleting local file: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-others.zip: OK
+0433.246 (0) Saving backup status to database (elements: 8)
+0433.251 (0) Beginning creation of database dump (WordPress DB)
+0433.253 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0433.258 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0433.288 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `ncUam8N_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 (truncated - 1574 bytes total)
+0433.290 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0433.312 (0) Table ncUam8N_options: Total expected rows (via COUNT): 445
+0433.314 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.371 (0) Table ncUam8N_options: Rows added in this batch (next record: 517): 441 (uncompressed bytes in this segment=1354556) in 0.07 seconds
+0433.380 (0) Table ncUam8N_options: finishing file(s) (2, 277.8 KB)
+0433.390 (0) Table ncUam8N_users: Total expected rows (via COUNT): 1
+0433.392 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.397 (0) Table ncUam8N_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1433) in 0.01 seconds
+0433.404 (0) Table ncUam8N_users: finishing file(s) (2, 0.6 KB)
+0433.414 (0) Table ncUam8N_usermeta: Total expected rows (via COUNT): 23
+0433.416 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.419 (0) Table ncUam8N_usermeta: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=16104) in 0.01 seconds
+0433.431 (0) Table ncUam8N_usermeta: finishing file(s) (2, 2.9 KB)
+0433.444 (0) Table ncUam8N_actionscheduler_actions: Total expected rows (via COUNT): 3
+0433.446 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.449 (0) Table ncUam8N_actionscheduler_actions: Rows added in this batch (next record: 9): 3 (uncompressed bytes in this segment=2880) in 0.01 seconds
+0433.459 (0) Table ncUam8N_actionscheduler_actions: finishing file(s) (2, 0.8 KB)
+0433.466 (0) Table ncUam8N_actionscheduler_claims: Total expected rows (via COUNT): 0
+0433.470 (0) Table ncUam8N_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.01 seconds
+0433.476 (0) Table ncUam8N_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0433.485 (0) Table ncUam8N_actionscheduler_groups: Total expected rows (via COUNT): 1
+0433.487 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.491 (0) Table ncUam8N_actionscheduler_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=720) in 0.01 seconds
+0433.498 (0) Table ncUam8N_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0433.506 (0) Table ncUam8N_actionscheduler_logs: Total expected rows (via COUNT): 7
+0433.508 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.511 (0) Table ncUam8N_actionscheduler_logs: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1434) in 0.01 seconds
+0433.517 (0) Table ncUam8N_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0433.528 (0) Table ncUam8N_commentmeta: Total expected rows (via COUNT): 0
+0433.532 (0) Table ncUam8N_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=707) in 0.01 seconds
+0433.540 (0) Table ncUam8N_commentmeta: finishing file(s) (2, 0.4 KB)
+0433.549 (0) Table ncUam8N_comments: Total expected rows (via COUNT): 1
+0433.551 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.555 (0) Table ncUam8N_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2203) in 0.01 seconds
+0433.561 (0) Table ncUam8N_comments: finishing file(s) (2, 0.8 KB)
+0433.569 (0) Table ncUam8N_links: Total expected rows (via COUNT): 0
+0433.574 (0) Table ncUam8N_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1328) in 0.01 seconds
+0433.581 (0) Table ncUam8N_links: finishing file(s) (2, 0.5 KB)
+0433.593 (0) Table ncUam8N_postmeta: Total expected rows (via COUNT): 10
+0433.595 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.600 (0) Table ncUam8N_postmeta: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=3692) in 0.01 seconds
+0433.609 (0) Table ncUam8N_postmeta: finishing file(s) (2, 1.5 KB)
+0433.621 (0) Table ncUam8N_posts: Total expected rows (via COUNT): 11
+0433.623 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.627 (0) Table ncUam8N_posts: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=18573) in 0.01 seconds
+0433.637 (0) Table ncUam8N_posts: finishing file(s) (2, 5.2 KB)
+0433.645 (0) Table ncUam8N_term_relationships: Total expected rows (approximate): 1
+0433.650 (0) Table ncUam8N_term_relationships: Rows added in this batch (next record: 100000): 1 (uncompressed bytes in this segment=725) in 0.01 seconds
+0433.656 (0) Table ncUam8N_term_relationships: finishing file(s) (2, 0.4 KB)
+0433.667 (0) Table ncUam8N_term_taxonomy: Total expected rows (via COUNT): 15
+0433.669 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.674 (0) Table ncUam8N_term_taxonomy: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=1502) in 0.01 seconds
+0433.682 (0) Table ncUam8N_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0433.693 (0) Table ncUam8N_termmeta: Total expected rows (via COUNT): 0
+0433.697 (0) Table ncUam8N_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=680) in 0.01 seconds
+0433.706 (0) Table ncUam8N_termmeta: finishing file(s) (2, 0.4 KB)
+0433.716 (0) Table ncUam8N_terms: Total expected rows (via COUNT): 15
+0433.717 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.722 (0) Table ncUam8N_terms: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=1277) in 0.01 seconds
+0433.728 (0) Table ncUam8N_terms: finishing file(s) (2, 0.6 KB)
+0433.735 (0) Table ncUam8N_wc_category_lookup: Total expected rows (approximate): 1
+0433.740 (0) Table ncUam8N_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=616) in 0.01 seconds
+0433.747 (0) Table ncUam8N_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0433.755 (0) Table ncUam8N_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0433.758 (0) Table ncUam8N_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1379) in 0.01 seconds
+0433.764 (0) Table ncUam8N_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0433.772 (0) Table ncUam8N_wc_reserved_stock: Total expected rows (approximate): 0
+0433.774 (0) Table ncUam8N_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=687) in 0.00 seconds
+0433.781 (0) Table ncUam8N_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0433.789 (0) Table ncUam8N_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0433.791 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.795 (0) Table ncUam8N_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=843) in 0.01 seconds
+0433.802 (0) Table ncUam8N_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0433.813 (0) Table ncUam8N_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0433.817 (0) Table ncUam8N_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=793) in 0.01 seconds
+0433.826 (0) Table ncUam8N_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0433.836 (0) Table ncUam8N_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0433.839 (0) Table ncUam8N_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=820) in 0.01 seconds
+0433.847 (0) Table ncUam8N_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0433.859 (0) Table ncUam8N_wc_admin_note_actions: Total expected rows (via COUNT): 91
+0433.860 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.866 (0) Table ncUam8N_wc_admin_note_actions: Rows added in this batch (next record: 180): 91 (uncompressed bytes in this segment=18833) in 0.01 seconds
+0433.874 (0) Table ncUam8N_wc_admin_note_actions: finishing file(s) (2, 2.8 KB)
+0433.885 (0) Table ncUam8N_wc_admin_notes: Total expected rows (via COUNT): 64
+0433.887 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0433.892 (0) Table ncUam8N_wc_admin_notes: Rows added in this batch (next record: 64): 64 (uncompressed bytes in this segment=31794) in 0.01 seconds
+0433.900 (0) Table ncUam8N_wc_admin_notes: finishing file(s) (2, 6.1 KB)
+0433.909 (0) Table ncUam8N_wc_customer_lookup: Total expected rows (via COUNT): 0
+0433.913 (0) Table ncUam8N_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1288) in 0.01 seconds
+0433.920 (0) Table ncUam8N_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0433.927 (0) Table ncUam8N_wc_download_log: Total expected rows (via COUNT): 0
+0433.929 (0) Table ncUam8N_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.00 seconds
+0433.936 (0) Table ncUam8N_wc_download_log: finishing file(s) (2, 0.4 KB)
+0433.943 (0) Table ncUam8N_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0433.946 (0) Table ncUam8N_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0433.953 (0) Table ncUam8N_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0433.961 (0) Table ncUam8N_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0433.963 (0) Table ncUam8N_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1233) in 0.00 seconds
+0433.970 (0) Table ncUam8N_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0433.978 (0) Table ncUam8N_wc_order_stats: Total expected rows (via COUNT): 0
+0433.980 (0) Table ncUam8N_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1249) in 0.01 seconds
+0433.987 (0) Table ncUam8N_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0433.995 (0) Table ncUam8N_wc_order_tax_lookup: Total expected rows (approximate): 0
+0433.997 (0) Table ncUam8N_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=821) in 0.00 seconds
+0434.006 (0) The time we have been running (434) is approaching the resumption interval (464) - increasing resumption interval to 465
+0434.010 (0) Table ncUam8N_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0434.017 (0) Table ncUam8N_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0434.019 (0) Table ncUam8N_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=880) in 0.00 seconds
+0434.025 (0) Table ncUam8N_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0434.033 (0) Table ncUam8N_wc_product_download_directories: Total expected rows (via COUNT): 2
+0434.035 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0434.039 (0) Table ncUam8N_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=975) in 0.01 seconds
+0434.045 (0) Table ncUam8N_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0434.052 (0) Table ncUam8N_wc_rate_limits: Total expected rows (via COUNT): 0
+0434.055 (0) Table ncUam8N_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=718) in 0.01 seconds
+0434.061 (0) Table ncUam8N_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0434.069 (0) Table ncUam8N_wc_webhooks: Total expected rows (via COUNT): 0
+0434.071 (0) Table ncUam8N_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1245) in 0.01 seconds
+0434.078 (0) Table ncUam8N_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0434.087 (0) Table ncUam8N_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0434.090 (0) Table ncUam8N_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1068) in 0.01 seconds
+0434.098 (0) Table ncUam8N_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0434.106 (0) Table ncUam8N_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0434.109 (0) Table ncUam8N_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=984) in 0.01 seconds
+0434.115 (0) Table ncUam8N_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0434.123 (0) Table ncUam8N_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0434.125 (0) Table ncUam8N_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1548) in 0.01 seconds
+0434.132 (0) Table ncUam8N_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0434.142 (0) Table ncUam8N_woocommerce_log: Total expected rows (via COUNT): 0
+0434.143 (0) Table ncUam8N_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=745) in 0.01 seconds
+0434.152 (0) Table ncUam8N_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0434.160 (0) Table ncUam8N_woocommerce_order_items: Total expected rows (via COUNT): 0
+0434.162 (0) Table ncUam8N_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.00 seconds
+0434.169 (0) Table ncUam8N_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0434.177 (0) Table ncUam8N_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0434.179 (0) Table ncUam8N_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=863) in 0.00 seconds
+0434.185 (0) Table ncUam8N_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0434.196 (0) Table ncUam8N_woocommerce_sessions: Total expected rows (via COUNT): 1
+0434.197 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0434.202 (0) Table ncUam8N_woocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2199) in 0.01 seconds
+0434.211 (0) Table ncUam8N_woocommerce_sessions: finishing file(s) (2, 0.8 KB)
+0434.218 (0) Table ncUam8N_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0434.223 (0) Table ncUam8N_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=896) in 0.01 seconds
+0434.229 (0) Table ncUam8N_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0434.238 (0) Table ncUam8N_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0434.240 (0) Table ncUam8N_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=793) in 0.00 seconds
+0434.247 (0) Table ncUam8N_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0434.255 (0) Table ncUam8N_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0434.257 (0) Table ncUam8N_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=655) in 0.00 seconds
+0434.264 (0) Table ncUam8N_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0434.272 (0) Table ncUam8N_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0434.274 (0) Table ncUam8N_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=870) in 0.01 seconds
+0434.281 (0) Table ncUam8N_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0434.289 (0) Table ncUam8N_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0434.292 (0) Table ncUam8N_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1313) in 0.01 seconds
+0434.299 (0) Table ncUam8N_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0434.312 (0) Table ncUam8N_yoast_indexable: Total expected rows (via COUNT): 7
+0434.314 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0434.319 (0) Table ncUam8N_yoast_indexable: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=7074) in 0.01 seconds
+0434.335 (0) Table ncUam8N_yoast_indexable: finishing file(s) (2, 1.6 KB)
+0434.343 (0) Table ncUam8N_yoast_indexable_hierarchy: Total expected rows (approximate): 6
+0434.348 (0) Table ncUam8N_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=909) in 0.01 seconds
+0434.355 (0) Table ncUam8N_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0434.363 (0) Table ncUam8N_yoast_migrations: Total expected rows (via COUNT): 24
+0434.365 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0434.369 (0) Table ncUam8N_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1306) in 0.01 seconds
+0434.376 (0) Table ncUam8N_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0434.383 (0) Table ncUam8N_yoast_primary_term: Total expected rows (via COUNT): 0
+0434.389 (0) Table ncUam8N_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=872) in 0.01 seconds
+0434.396 (0) Table ncUam8N_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0434.405 (0) Table ncUam8N_yoast_seo_links: Total expected rows (via COUNT): 0
+0434.407 (0) Table ncUam8N_yoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=982) in 0.01 seconds
+0434.414 (0) Table ncUam8N_yoast_seo_links: finishing file(s) (2, 0.4 KB)
+0434.415 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/affordab/public_html/rahapropertiesllc.com/wp-content/updraft/backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db.gz (line 1976, wp-content/plugins/updraftplus/backup.php)
+0434.418 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_options.table.tmpr518.gz (1/51/fopen): adding to final database dump
+0434.434 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_options.table.gz (2/51/fopen): adding to final database dump
+0434.436 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_users.table.tmpr2.gz (3/51/fopen): adding to final database dump
+0434.438 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_users.table.gz (4/51/fopen): adding to final database dump
+0434.439 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_usermeta.table.tmpr24.gz (5/51/fopen): adding to final database dump
+0434.441 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_usermeta.table.gz (6/51/fopen): adding to final database dump
+0434.443 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_actionscheduler_actions.table.tmpr10.gz (7/51/fopen): adding to final database dump
+0434.445 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_actionscheduler_actions.table.gz (8/51/fopen): adding to final database dump
+0434.447 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_actionscheduler_claims.table.tmpr0.gz (9/51/fopen): adding to final database dump
+0434.449 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_actionscheduler_claims.table.gz (10/51/fopen): adding to final database dump
+0434.451 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_actionscheduler_groups.table.tmpr2.gz (11/51/fopen): adding to final database dump
+0434.453 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_actionscheduler_groups.table.gz (12/51/fopen): adding to final database dump
+0434.455 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_actionscheduler_logs.table.tmpr8.gz (13/51/fopen): adding to final database dump
+0434.457 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_actionscheduler_logs.table.gz (14/51/fopen): adding to final database dump
+0434.458 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_commentmeta.table.tmpr0.gz (15/51/fopen): adding to final database dump
+0434.460 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_commentmeta.table.gz (16/51/fopen): adding to final database dump
+0434.462 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_comments.table.tmpr2.gz (17/51/fopen): adding to final database dump
+0434.464 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_comments.table.gz (18/51/fopen): adding to final database dump
+0434.466 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_links.table.tmpr0.gz (19/51/fopen): adding to final database dump
+0434.468 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_links.table.gz (20/51/fopen): adding to final database dump
+0434.469 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_postmeta.table.tmpr11.gz (21/51/fopen): adding to final database dump
+0434.472 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_postmeta.table.gz (22/51/fopen): adding to final database dump
+0434.473 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_posts.table.tmpr12.gz (23/51/fopen): adding to final database dump
+0434.475 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_posts.table.gz (24/51/fopen): adding to final database dump
+0434.477 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_term_relationships.table.tmpr100001.gz (25/51/fopen): adding to final database dump
+0434.479 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_term_relationships.table.gz (26/51/fopen): adding to final database dump
+0434.481 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_term_taxonomy.table.tmpr16.gz (27/51/fopen): adding to final database dump
+0434.483 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_term_taxonomy.table.gz (28/51/fopen): adding to final database dump
+0434.485 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_termmeta.table.tmpr0.gz (29/51/fopen): adding to final database dump
+0434.486 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_termmeta.table.gz (30/51/fopen): adding to final database dump
+0434.489 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_terms.table.tmpr16.gz (31/51/fopen): adding to final database dump
+0434.491 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_terms.table.gz (32/51/fopen): adding to final database dump
+0434.492 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_category_lookup.table.tmpr1001.gz (33/51/fopen): adding to final database dump
+0434.494 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_category_lookup.table.gz (34/51/fopen): adding to final database dump
+0434.496 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_product_meta_lookup.table.tmpr0.gz (35/51/fopen): adding to final database dump
+0434.498 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_product_meta_lookup.table.gz (36/51/fopen): adding to final database dump
+0434.500 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_reserved_stock.table.tmpr1.gz (37/51/fopen): adding to final database dump
+0434.502 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_reserved_stock.table.gz (38/51/fopen): adding to final database dump
+0434.503 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_tax_rate_classes.table.tmpr3.gz (39/51/fopen): adding to final database dump
+0434.505 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_tax_rate_classes.table.gz (40/51/fopen): adding to final database dump
+0434.507 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_order_itemmeta.table.tmpr0.gz (41/51/fopen): adding to final database dump
+0434.509 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_order_itemmeta.table.gz (42/51/fopen): adding to final database dump
+0434.510 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/51/fopen): adding to final database dump
+0434.512 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_payment_tokenmeta.table.gz (44/51/fopen): adding to final database dump
+0434.514 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_admin_note_actions.table.tmpr181.gz (45/51/fopen): adding to final database dump
+0434.516 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_admin_note_actions.table.gz (46/51/fopen): adding to final database dump
+0434.518 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_admin_notes.table.tmpr65.gz (47/51/fopen): adding to final database dump
+0434.520 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_admin_notes.table.gz (48/51/fopen): adding to final database dump
+0434.522 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_customer_lookup.table.tmpr0.gz (49/51/fopen): adding to final database dump
+0434.524 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_customer_lookup.table.gz (50/51/fopen): adding to final database dump
+0434.526 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_download_log.table.tmpr0.gz (51/51/fopen): adding to final database dump
+0434.528 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_download_log.table.gz (52/51/fopen): adding to final database dump
+0434.530 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_order_coupon_lookup.table.tmpr1.gz (53/51/fopen): adding to final database dump
+0434.532 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_order_coupon_lookup.table.gz (54/51/fopen): adding to final database dump
+0434.534 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_order_product_lookup.table.tmpr0.gz (55/51/fopen): adding to final database dump
+0434.536 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_order_product_lookup.table.gz (56/51/fopen): adding to final database dump
+0434.538 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_order_stats.table.tmpr0.gz (57/51/fopen): adding to final database dump
+0434.540 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_order_stats.table.gz (58/51/fopen): adding to final database dump
+0434.542 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_order_tax_lookup.table.tmpr1.gz (59/51/fopen): adding to final database dump
+0434.544 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_order_tax_lookup.table.gz (60/51/fopen): adding to final database dump
+0434.546 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_product_attributes_lookup.table.tmpr1.gz (61/51/fopen): adding to final database dump
+0434.548 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_product_attributes_lookup.table.gz (62/51/fopen): adding to final database dump
+0434.550 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_product_download_directories.table.tmpr3.gz (63/51/fopen): adding to final database dump
+0434.551 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_product_download_directories.table.gz (64/51/fopen): adding to final database dump
+0434.553 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_rate_limits.table.tmpr0.gz (65/51/fopen): adding to final database dump
+0434.555 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_rate_limits.table.gz (66/51/fopen): adding to final database dump
+0434.557 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_webhooks.table.tmpr0.gz (67/51/fopen): adding to final database dump
+0434.559 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_wc_webhooks.table.gz (68/51/fopen): adding to final database dump
+0434.561 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_api_keys.table.tmpr0.gz (69/51/fopen): adding to final database dump
+0434.563 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_api_keys.table.gz (70/51/fopen): adding to final database dump
+0434.565 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_attribute_taxonomies.table.tmpr0.gz (71/51/fopen): adding to final database dump
+0434.567 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_attribute_taxonomies.table.gz (72/51/fopen): adding to final database dump
+0434.569 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_downloadable_product_permissions.table.tmpr0.gz (73/51/fopen): adding to final database dump
+0434.570 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_downloadable_product_permissions.table.gz (74/51/fopen): adding to final database dump
+0434.572 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_log.table.tmpr0.gz (75/51/fopen): adding to final database dump
+0434.574 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_log.table.gz (76/51/fopen): adding to final database dump
+0434.576 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_order_items.table.tmpr0.gz (77/51/fopen): adding to final database dump
+0434.577 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_order_items.table.gz (78/51/fopen): adding to final database dump
+0434.579 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_payment_tokens.table.tmpr0.gz (79/51/fopen): adding to final database dump
+0434.581 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_payment_tokens.table.gz (80/51/fopen): adding to final database dump
+0434.583 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_sessions.table.tmpr2.gz (81/51/fopen): adding to final database dump
+0434.585 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_sessions.table.gz (82/51/fopen): adding to final database dump
+0434.587 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_shipping_zone_locations.table.tmpr0.gz (83/51/fopen): adding to final database dump
+0434.589 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_shipping_zone_locations.table.gz (84/51/fopen): adding to final database dump
+0434.590 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_shipping_zone_methods.table.tmpr0.gz (85/51/fopen): adding to final database dump
+0434.592 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_shipping_zone_methods.table.gz (86/51/fopen): adding to final database dump
+0434.594 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_shipping_zones.table.tmpr0.gz (87/51/fopen): adding to final database dump
+0434.596 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_shipping_zones.table.gz (88/51/fopen): adding to final database dump
+0434.598 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_tax_rate_locations.table.tmpr0.gz (89/51/fopen): adding to final database dump
+0434.600 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_tax_rate_locations.table.gz (90/51/fopen): adding to final database dump
+0434.602 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_tax_rates.table.tmpr0.gz (91/51/fopen): adding to final database dump
+0434.604 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_woocommerce_tax_rates.table.gz (92/51/fopen): adding to final database dump
+0434.606 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_yoast_indexable.table.tmpr8.gz (93/51/fopen): adding to final database dump
+0434.608 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_yoast_indexable.table.gz (94/51/fopen): adding to final database dump
+0434.610 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_yoast_indexable_hierarchy.table.tmpr1001.gz (95/51/fopen): adding to final database dump
+0434.612 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_yoast_indexable_hierarchy.table.gz (96/51/fopen): adding to final database dump
+0434.613 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_yoast_migrations.table.tmpr25.gz (97/51/fopen): adding to final database dump
+0434.615 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_yoast_migrations.table.gz (98/51/fopen): adding to final database dump
+0434.617 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_yoast_primary_term.table.tmpr0.gz (99/51/fopen): adding to final database dump
+0434.621 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_yoast_primary_term.table.gz (100/51/fopen): adding to final database dump
+0434.623 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_yoast_seo_links.table.tmpr0.gz (101/51/fopen): adding to final database dump
+0434.625 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db-table-ncUam8N_yoast_seo_links.table.gz (102/51/fopen): adding to final database dump
+0434.634 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db.gz: finished writing out complete database file (317.8 KB)
+0434.652 (0) Total database tables backed up: 51 (backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db.gz, size: 325558, sha1: abc83bf940d8a4d6cee64b62c2e838a528cacde5, sha256: 817b41aa1733d5d4afc78c61bf1b603a4df4c1440cd938464103bb97468227a7)
+0434.662 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip: plugins: This file has already been successfully uploaded
+0434.664 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-themes.zip: themes: This file has already been successfully uploaded
+0434.665 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-uploads.zip: uploads: This file has already been successfully uploaded
+0434.667 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-others.zip: others: This file has already been successfully uploaded
+0434.669 (0) backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0434.670 (0) Saving backup history. Total backup size: 75.7 MB
+0434.675 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0434.681 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0434.683 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5f257ab9ad823b0676e733645333dada)
+0435.149 (0) Google Drive: quota usage: used=2578.9 MB, total=2097152 MB, available=2094573.1 MB
+0435.151 (0) Google Drive: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db.gz: Attempting to upload to Google Drive (into folder id: 1K2MGXvi3ZQBd3uB5oPOKCsB3A_kgJSAf)
+0438.236 (0) The time we have been running (438.2) is approaching the resumption interval (465) - increasing resumption interval to 469
+0438.241 (0) Googledrive chunked upload: 100 % uploaded
+0438.247 (0) Google Drive: OK: Archive backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db.gz uploaded in 3.09 seconds
+0438.249 (0) Recording as successfully uploaded: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db.gz
+0438.254 (0) Deleting local file: backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-db.gz: OK
+0438.258 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0438.261 (0) Number of backup sets in history: 2; groups (db): 1
+0438.263 (0) Examining (for databases) backup set with group_id=0, nonce=54aebb5d537c, datestamp=1689543791 (Jul 16 2023 21:43:11)
+0438.265 (0) This backup set is the backup set just made, so will not be deleted.
+0438.265 (0) Examining (for databases) backup set with group_id=0, nonce=b1d06675edc4, datestamp=1689543445 (Jul 16 2023 21:37:25)
+0438.265 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0438.267 (0) Number of backup sets in history: 2; groups (files): 1
+0438.268 (0) Examining (for files) backup set with nonce=54aebb5d537c, datestamp=1689543791 (Jul 16 2023 21:43:11)
+0438.268 (0) This backup set is the backup set just made, so will not be deleted.
+0438.270 (0) This backup set is the backup set just made, so will not be deleted.
+0438.270 (0) This backup set is the backup set just made, so will not be deleted.
+0438.270 (0) This backup set is the backup set just made, so will not be deleted.
+0438.271 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0438.272 (0) Examining (for files) backup set with nonce=b1d06675edc4, datestamp=1689543445 (Jul 16 2023 21:37:25)
+0438.273 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0438.273 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0438.277 (0) Resume backup (54aebb5d537c, 0): finish run
+0438.282 (0) Decremented the semaphore (fd) by 1
+0438.286 (0) Semaphore (fd) unlocked
+0438.288 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0438.295 (0) Deleting zip manifest (backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-plugins.zip.list.tmp)
+0438.297 (0) Deleting zip manifest (backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-themes.zip.list.tmp)
+0438.299 (0) Deleting zip manifest (backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-uploads.zip.list.tmp)
+0438.300 (0) Deleting zip manifest (backup_2023-07-16-2143_Calculating_Infinity_54aebb5d537c-others.zip.list.tmp)
+0438.302 (0) No email will/can be sent - the user has not configured an email address.
+0438.304 (0) The backup apparently succeeded and is now complete
